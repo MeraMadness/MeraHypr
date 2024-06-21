@@ -1,0 +1,1 @@
+swaync-client -rs

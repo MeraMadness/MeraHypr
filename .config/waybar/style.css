@@ -1,0 +1,142 @@
+@import url("/home/mera/.cache/wal/colors-waybar.css");
+
+* {
+  border-radius: 25;
+  font-family: Iosevka Nerd Font, sans-serif;
+  font-size: 18px;
+}
+
+window#waybar {
+  background-color: @background;
+  color: @color3;
+  transition-property: background-color;
+  transition-duration: .5s; 
+  opacity: 0.90;
+ } 
+ 
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+#workspaces,
+#mode,
+#cpu,
+#memory,
+#temperature,
+#custom-launcher,
+#custom-media,
+#clock,
+#idle_inhibitor,
+#language,
+#pulseaudio,
+#backlight,
+#battery,
+#network,
+#tray {
+  background-color: @background;
+  padding: 0 10px;
+  margin: 2px 4px 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 90px;
+  background-clip: padding-box;
+}
+
+#workspaces button {
+  /*color: #cba6f7;*/
+  color: @color3;
+}
+
+#workspaces button:hover {
+  /*background-color: #cba6f7;*/
+  background-color: @color10;
+}
+
+#workspaces button.focused {
+  color: #6c7086;
+}
+
+#workspaces button.urgent {
+  color: #e06c75;
+}
+
+#cpu {
+  color: #61afef;
+}
+
+#memory {
+  color: #c678dd;
+}
+
+#temperature {
+  /*color: #cba6f7;*/
+  color: @color3;
+}
+
+#temperature.critical {
+  background-color: #e06c75;
+  color: #1e222a;
+}
+
+#custom-media {
+  background-color: @color3;
+  color: #1e222a;
+}
+
+#clock {
+  /*color: #cba6f7;*/
+  color: @color3;
+}
+
+#language {
+  color: #56b6c2;
+}
+
+#pulseaudio {
+  /*color: #cba6f7;*/
+  color: @color3;
+}
+
+#pulseaudio.muted {
+  background-color: #e06c75;
+  color: #1e222a;
+}
+
+#backlight {
+  color: #61afef;
+}
+
+#battery {
+  color: #98c379;
+}
+
+#battery.charging, #battery.plugged {
+  background-color: #98c379;
+  color: #1e222a;
+}
+
+@keyframes blink {
+    to {
+        background-color: #1e222a;
+        color: #e06c75;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #e06c75;
+    color: #1e222a;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#network {
+    /*color: #cba6f7;*/
+    color: @color3;
+}
+
+#network.disconnected {
+    background-color: #e06c75;
+    color: #1e222a;
+}
