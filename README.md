@@ -65,34 +65,13 @@ python python-pipx
 </details>
 
 <details>
-<summary><h3>Apps & More</h3></summary>
+<summary><h3>Dotfiles</h3></summary>
 
 ```sh
-## CLI & Tools
-paru -S btop cava fastfetch rofi-wayland zsh ocs-url nvim
-```
-
-```sh
-## Browser & File Explorer
-paru -S firefox file-roller noto-fonts noto-fonts-cjk  \
-noto-fonts-emoji thunar thunar-archive-plugin
-```
-
-```sh
-# VSCode
-paru -S visual-studio-code-bin
-```
-
-```sh
-# Theme Based
-paru -S catppuccin-gtk-theme-mocha python-pywal papirus-icon-theme sddm swaylock-effects-git
-```
-
-```sh
-# Pipewire & OBS
-paru -S obs-studio \
-pipewire pipewire-alsa pipewire-audio pipewire-pulse      \
-pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
+# Dotfiles
+git clone https://github.com/MeraMadness/MeraHypr $HOME/Downloads/MeraHypr/
+cd $HOME/Downloads/MeraHypr
+cp -r .config/* $HOME/.config
 ```
 </details>
 
