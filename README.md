@@ -94,12 +94,7 @@ paru -S obs-studio \
 pipewire pipewire-alsa pipewire-audio pipewire-pulse      \
 pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
 ```
-
 </details>
-
-</div>
-
-<div align="left">
 
 <details>
 <summary><h3>Dotfiles</h3><summary>
@@ -112,6 +107,7 @@ cp -r .config/* $HOME/.config
 ```
 
 </details>
+
 </div>
 
 ## Credits
