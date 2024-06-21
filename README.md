@@ -20,5 +20,5 @@ You can use Paru or Yay, it doesn't matter.
 
 ## ⛧ Images 
 
-<img align="center" src=">
+<img align="center" src="/img/layout.webp">
 
