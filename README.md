@@ -110,6 +110,13 @@ cp -r .config/* $HOME/.config
 
 </div>
 
+## How to Change the Wallpaper
+
+CTRL + Super + W - You can Select the Wallpaper
+Super + Shift - it will choose it randomly
+
+if you are using Pywal, the Wallpaper is going to change the color scheme and everything.
+
 ## Credits
 
 _UnixPorn: [r/unixporn](https://www.reddit.com/r/unixporn/)_
