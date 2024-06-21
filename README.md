@@ -41,7 +41,7 @@ You can use Paru or Yay, it doesn't matter.
 <details>
 <summary><h3> Hyprland + Other Stuff<h3></summary>
 
-###### You need to make sure you have all the prerequisites. If you are use Arch, I recommend to use Paru or Yay as the AUR Helper, if you are using Fedora, just use DNF.
+###### You need to make sure you have all the prerequisites. If you are use Arch, I recommend to use Paru or Yay as the AUR Helper.
 
 - Installation using Paru on Arch
 
@@ -103,8 +103,6 @@ pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
 
 <details>
 <summary><h3> Dotfiles</h3><summary>
-
-###### Post-Install Dependencies.
 
 ```sh
 git clone https://github.com/MeraMadness/MeraHypr $HOME/Downloads/MeraHypr/
