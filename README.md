@@ -5,7 +5,7 @@ I'm using this on Arch Linux but it will work on every distro, if you install ev
 You can use Paru or Yay, it doesn't matter.
 
 - **Window Manager** • [Hyprland](https://wiki.hyprland.org/) 
-- **Shell** • [ZSH] and [OhMyZsh](https://ohmyz.sh/)
+- **Shell** • [ZSH](https://wiki.archlinux.org/title/Zsh) - [OhMyZsh](https://ohmyz.sh/)
 - **Terminal** • [Kitty](https://sw.kovidgoyal.net/kitty/#)
 - **Bar** • [Waybar](https://github.com/Alexays/Waybar)
 - **Notify Daemon** • [SwayNC](https://github.com/ErikReider/SwayNotificationCenter)
@@ -109,6 +109,9 @@ git clone https://github.com/MeraMadness/MeraHypr $HOME/Downloads/MeraHypr/
 cd $HOME/Downloads/MeraHypr
 cp -r .config/* $HOME/.config
 ```
+</details>
+</div>
+
 
 ## Credits
 
