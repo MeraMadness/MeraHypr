@@ -96,18 +96,6 @@ pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
 ```
 </details>
 
-<details>
-<summary><h3>Dotfiles</h3><summary>
-
-```sh
-# Dotfiles
-git clone https://github.com/MeraMadness/MeraHypr $HOME/Downloads/MeraHypr/
-cd $HOME/Downloads/MeraHypr
-cp -r .config/* $HOME/.config
-```
-
-</details>
-
 </div>
 
 ## Credits
