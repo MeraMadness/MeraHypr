@@ -26,7 +26,7 @@ You can use Paru or Yay, it doesn't matter.
 
 <img align="center" src="/img/layout.webp">
 
-https://github.com/MeraMadness/MeraHypr/assets/137096624/f48c8e60-a74a-46fa-aa97-4e5f04b71e1d
+https://github.com/MeraMadness/MeraHypr/assets/137096624/f48c8e60-a74a-46fa-aa97-4e5f04b71e1d.mp4
 
 ### Install Steps (Not a Tutorial)
 
