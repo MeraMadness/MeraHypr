@@ -21,10 +21,11 @@ You can use Paru or Yay, it doesn't matter.
 - **Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
 
-
-## ⛧ Images 
+## ⛧ Images
 
 <img align="center" src="/img/layout.webp">
+
+https://github.com/MeraMadness/MeraHypr/assets/137096624/38b88352-7787-4e5b-a5a0-43051dd50d83
 
 ### Install Steps (Not a Tutorial)
 
