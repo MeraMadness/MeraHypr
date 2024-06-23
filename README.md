@@ -21,9 +21,11 @@ You can use Paru or Yay, it doesn't matter.
 - **Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
 
-## ⛧ Images
+## ⛧ Images and Video
 
 <img align="center" src="/img/layout.webp">
+
+[![Changing the Wallpaper](https://img.youtube.com/vi/0fx5Lx-z9FI/0.jpg)](https://www.youtube.com/watch?v=0fx5Lx-z9FI)
 
 ### Install Steps (Not a Tutorial)
 
