@@ -26,7 +26,9 @@ You can use Paru or Yay, it doesn't matter.
 
 <img align="center" src="/img/layout.webp">
 
-https://user-images.githubusercontent.com/137096624/f48c8e60-a74a-46fa-aa97-4e5f04b71e1d.mp4
+<video width="640" height="480" controls>
+  <source type="video/mp4 src="https://user-images.githubusercontent.com/137096624/f48c8e60-a74a-46fa-aa97-4e5f04b71e1d.mp4">
+</video>  
 
 ### Install Steps (Not a Tutorial)
 
