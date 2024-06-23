@@ -22,9 +22,11 @@ You can use Paru or Yay, it doesn't matter.
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
 
 
-## ⛧ Images 
+## ⛧ Images and Video
 
 <img align="center" src="/img/layout.webp">
+
+https://github.com/MeraMadness/MeraHypr/assets/137096624/f48c8e60-a74a-46fa-aa97-4e5f04b71e1d
 
 ### Install Steps (Not a Tutorial)
 
