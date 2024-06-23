@@ -21,14 +21,9 @@ You can use Paru or Yay, it doesn't matter.
 - **Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
 
-
-## ⛧ Images and Video
+## ⛧ Images
 
 <img align="center" src="/img/layout.webp">
-
-<video width="640" height="480" controls>
-  <source type="video/mp4 src="https://user-images.githubusercontent.com/137096624/f48c8e60-a74a-46fa-aa97-4e5f04b71e1d.mp4">
-</video>  
 
 ### Install Steps (Not a Tutorial)
 
