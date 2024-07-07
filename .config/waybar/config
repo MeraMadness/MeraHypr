@@ -78,10 +78,10 @@
         "format-icons": ["", "", "", "", ""]
     },
     "network": {
-        "format-wifi": "直 ",
+        "format-wifi": " ",
         "format-ethernet": " ",
         "format-linked": "{ifname} (No IP)  ",
-        "format-disconnected": "睊 ",
+        "format-disconnected": " ",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "tooltip-format": "{essid} {signalStrength}%"
     },
