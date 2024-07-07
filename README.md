@@ -1,4 +1,4 @@
-# MeraHypr - My Simple Hyprland Config
+# MeraHypr - My Simple Hyprland Config with Dark/Light switching.
 
 I'm using this on Arch Linux but it will work on every distro, if you install every dependencies.
 
@@ -31,6 +31,10 @@ Icon Packs I recommend.
 
 - **Tela Circle** • [Tela](https://github.com/vinceliuice/Tela-circle-icon-theme)
 - **Papirus** • [Papirus-Icon-Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+Visual Studio Code Theme I use.
+
+- **Wal Theme Generator** • [Wal](https://marketplace.visualstudio.com/items?itemName=dlasagno.wal-theme)
 
 ## ⛧ Images
 
@@ -124,13 +128,11 @@ cp -r .cache/* $HOME/.cache
 
 </div>
 
-## How to Change the Wallpaper
+## How to Change the Wallpaper, it will change the Color Scheme.
 
 **CTRL + Super + W** - You can Select the Wallpaper.
 
 **Super + Shift + W** - it will choose it randomly.
-
-**if you are using Pywal, the Wallpaper is going to change the color scheme and everything.**
 
 ## Credits
 
