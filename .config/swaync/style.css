@@ -1,4 +1,4 @@
-@import "/home/mera/.cache/wal/gtk-colors.css";
+@import "~/.cache/wal/gtk-colors.css";
 
 * {
   all: unset;

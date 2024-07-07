@@ -1,3 +1,3 @@
 ##!/bin/bash
 
-grim /home/mera/Pictures/Screenshots/$(date +'%s_grim.png')
+grim ~/Pictures/Screenshots/$(date +'%s_grim.png')

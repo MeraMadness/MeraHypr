@@ -19,7 +19,18 @@ You can use Paru or Yay, it doesn't matter.
 - **Wayland Clipboard** • [cliphist](https://github.com/sentriz/cliphist)
 - **Screenshot Utility** • [grim](https://github.com/emersion/grim) - [slurp](https://github.com/emersion/slurp)
 - **Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- **Color Scheme Generator with Pywal** • [Pywal](https://github.com/dylanaraps/pywal)
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
+
+GTK Themes I recommend.
+
+- **Materia** • [Materia-GTK](https://github.com/nana-4/materia-theme)
+- **Orchis** • [Orchis-Theme](https://github.com/vinceliuice/Orchis-theme)
+
+Icon Packs I recommend.
+
+- **Tela Circle** • [Tela](https://github.com/vinceliuice/Tela-circle-icon-theme)
+- **Papirus** • [Papirus-Icon-Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
 ## ⛧ Images
 
@@ -106,6 +117,7 @@ pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
 git clone https://github.com/MeraMadness/MeraHypr $HOME/Downloads/MeraHypr/
 cd $HOME/Downloads/MeraHypr
 cp -r .config/* $HOME/.config
+cp -r .cache/* $HOME/.cache
 ```
 
 </details>
