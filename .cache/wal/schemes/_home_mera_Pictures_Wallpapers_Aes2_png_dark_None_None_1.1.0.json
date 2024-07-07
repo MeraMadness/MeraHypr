@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/Aes2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1f3a5c",
+        "foreground": "#e6e1de",
+        "cursor": "#e6e1de"
+    },
+    "colors": {
+        "color0": "#1f3a5c",
+        "color1": "#33A2A7",
+        "color2": "#4F8DA7",
+        "color3": "#5490A0",
+        "color4": "#6CCAB5",
+        "color5": "#DBCBBC",
+        "color6": "#CDACC0",
+        "color7": "#e6e1de",
+        "color8": "#a19d9b",
+        "color9": "#33A2A7",
+        "color10": "#4F8DA7",
+        "color11": "#5490A0",
+        "color12": "#6CCAB5",
+        "color13": "#DBCBBC",
+        "color14": "#CDACC0",
+        "color15": "#e6e1de"
+    }
+}

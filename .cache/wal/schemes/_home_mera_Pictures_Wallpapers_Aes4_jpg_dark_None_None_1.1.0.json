@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/Aes4.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060507",
+        "foreground": "#eaede9",
+        "cursor": "#eaede9"
+    },
+    "colors": {
+        "color0": "#060507",
+        "color1": "#DB1BDD",
+        "color2": "#CE47CD",
+        "color3": "#3DE1C5",
+        "color4": "#C6E4AC",
+        "color5": "#E19CE1",
+        "color6": "#A1F0E4",
+        "color7": "#eaede9",
+        "color8": "#a3a5a3",
+        "color9": "#DB1BDD",
+        "color10": "#CE47CD",
+        "color11": "#3DE1C5",
+        "color12": "#C6E4AC",
+        "color13": "#E19CE1",
+        "color14": "#A1F0E4",
+        "color15": "#eaede9"
+    }
+}

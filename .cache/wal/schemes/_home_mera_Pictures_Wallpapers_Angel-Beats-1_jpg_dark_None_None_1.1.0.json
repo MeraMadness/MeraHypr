@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/Angel-Beats-1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#2d1c34",
+        "foreground": "#f5e2e9",
+        "cursor": "#f5e2e9"
+    },
+    "colors": {
+        "color0": "#2d1c34",
+        "color1": "#AB8A8A",
+        "color2": "#AA8EA6",
+        "color3": "#C9B9BF",
+        "color4": "#E2A0AA",
+        "color5": "#E5B1CA",
+        "color6": "#F5D2D5",
+        "color7": "#f5e2e9",
+        "color8": "#ab9ea3",
+        "color9": "#AB8A8A",
+        "color10": "#AA8EA6",
+        "color11": "#C9B9BF",
+        "color12": "#E2A0AA",
+        "color13": "#E5B1CA",
+        "color14": "#F5D2D5",
+        "color15": "#f5e2e9"
+    }
+}

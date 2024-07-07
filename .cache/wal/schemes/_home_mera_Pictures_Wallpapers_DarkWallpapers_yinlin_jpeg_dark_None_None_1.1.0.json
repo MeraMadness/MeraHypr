@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/yinlin.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0A14",
+        "foreground": "#bdbec5",
+        "cursor": "#bdbec5"
+    },
+    "colors": {
+        "color0": "#0D0A14",
+        "color1": "#4E3554",
+        "color2": "#444556",
+        "color3": "#604C5C",
+        "color4": "#9F5061",
+        "color5": "#634F97",
+        "color6": "#A36BA0",
+        "color7": "#bdbec5",
+        "color8": "#848589",
+        "color9": "#4E3554",
+        "color10": "#444556",
+        "color11": "#604C5C",
+        "color12": "#9F5061",
+        "color13": "#634F97",
+        "color14": "#A36BA0",
+        "color15": "#bdbec5"
+    }
+}

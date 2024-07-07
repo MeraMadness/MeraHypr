@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/wuwa2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090B10",
+        "foreground": "#c6bfd0",
+        "cursor": "#c6bfd0"
+    },
+    "colors": {
+        "color0": "#090B10",
+        "color1": "#5C836F",
+        "color2": "#F0B454",
+        "color3": "#6C6B8D",
+        "color4": "#917497",
+        "color5": "#D55AA3",
+        "color6": "#748FA6",
+        "color7": "#c6bfd0",
+        "color8": "#8a8591",
+        "color9": "#5C836F",
+        "color10": "#F0B454",
+        "color11": "#6C6B8D",
+        "color12": "#917497",
+        "color13": "#D55AA3",
+        "color14": "#748FA6",
+        "color15": "#c6bfd0"
+    }
+}

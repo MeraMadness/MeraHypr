@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/mima.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090D1D",
+        "foreground": "#ced3e3",
+        "cursor": "#ced3e3"
+    },
+    "colors": {
+        "color0": "#090D1D",
+        "color1": "#5062A1",
+        "color2": "#4E67B1",
+        "color3": "#5071CF",
+        "color4": "#6B89B5",
+        "color5": "#6291D3",
+        "color6": "#8DA4DB",
+        "color7": "#ced3e3",
+        "color8": "#90939e",
+        "color9": "#5062A1",
+        "color10": "#4E67B1",
+        "color11": "#5071CF",
+        "color12": "#6B89B5",
+        "color13": "#6291D3",
+        "color14": "#8DA4DB",
+        "color15": "#ced3e3"
+    }
+}

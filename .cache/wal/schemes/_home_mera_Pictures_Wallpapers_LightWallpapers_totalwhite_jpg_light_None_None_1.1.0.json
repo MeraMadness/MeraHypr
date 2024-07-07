@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/LightWallpapers/totalwhite.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#ffffff",
+        "foreground": "#474747",
+        "cursor": "#474747"
+    },
+    "colors": {
+        "color0": "#ffffff",
+        "color1": "#D6D5D6",
+        "color2": "#F6F3CE",
+        "color3": "#DDDBE5",
+        "color4": "#E0DFE3",
+        "color5": "#F4F4F4",
+        "color6": "#FCFCFB",
+        "color7": "#474747",
+        "color8": "#999999",
+        "color9": "#D6D5D6",
+        "color10": "#F6F3CE",
+        "color11": "#DDDBE5",
+        "color12": "#E0DFE3",
+        "color13": "#F4F4F4",
+        "color14": "#FCFCFB",
+        "color15": "#474747"
+    }
+}

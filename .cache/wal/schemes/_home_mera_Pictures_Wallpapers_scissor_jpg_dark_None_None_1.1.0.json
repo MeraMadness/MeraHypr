@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/scissor.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0605",
+        "foreground": "#d8d7d3",
+        "cursor": "#d8d7d3"
+    },
+    "colors": {
+        "color0": "#0a0605",
+        "color1": "#BA7383",
+        "color2": "#35B7A9",
+        "color3": "#76B09F",
+        "color4": "#AC9288",
+        "color5": "#A4B1A5",
+        "color6": "#B1C4B6",
+        "color7": "#d8d7d3",
+        "color8": "#979693",
+        "color9": "#BA7383",
+        "color10": "#35B7A9",
+        "color11": "#76B09F",
+        "color12": "#AC9288",
+        "color13": "#A4B1A5",
+        "color14": "#B1C4B6",
+        "color15": "#d8d7d3"
+    }
+}

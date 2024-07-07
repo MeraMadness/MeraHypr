@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/alt-girl-covering-mouth.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090706",
+        "foreground": "#bbb1a4",
+        "cursor": "#bbb1a4"
+    },
+    "colors": {
+        "color0": "#090706",
+        "color1": "#65533D",
+        "color2": "#443F41",
+        "color3": "#594B46",
+        "color4": "#645650",
+        "color5": "#756850",
+        "color6": "#87403C",
+        "color7": "#bbb1a4",
+        "color8": "#827b72",
+        "color9": "#65533D",
+        "color10": "#443F41",
+        "color11": "#594B46",
+        "color12": "#645650",
+        "color13": "#756850",
+        "color14": "#87403C",
+        "color15": "#bbb1a4"
+    }
+}

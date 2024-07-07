@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/gruvbox.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1e1d1c",
+        "foreground": "#e5e0cf",
+        "cursor": "#e5e0cf"
+    },
+    "colors": {
+        "color0": "#1e1d1c",
+        "color1": "#928B78",
+        "color2": "#A0967F",
+        "color3": "#9F9B86",
+        "color4": "#B3AC91",
+        "color5": "#C4BB9D",
+        "color6": "#BAC0A6",
+        "color7": "#e5e0cf",
+        "color8": "#a09c90",
+        "color9": "#928B78",
+        "color10": "#A0967F",
+        "color11": "#9F9B86",
+        "color12": "#B3AC91",
+        "color13": "#C4BB9D",
+        "color14": "#BAC0A6",
+        "color15": "#e5e0cf"
+    }
+}

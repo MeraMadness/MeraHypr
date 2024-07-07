@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/LightWallpapers/pink.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1c22",
+        "foreground": "#d3dadb",
+        "cursor": "#d3dadb"
+    },
+    "colors": {
+        "color0": "#1c1c22",
+        "color1": "#A69D9D",
+        "color2": "#CF9794",
+        "color3": "#D3A9A3",
+        "color4": "#FFB3B3",
+        "color5": "#FFB3B3",
+        "color6": "#AEB3C7",
+        "color7": "#d3dadb",
+        "color8": "#939899",
+        "color9": "#A69D9D",
+        "color10": "#CF9794",
+        "color11": "#D3A9A3",
+        "color12": "#FFB3B3",
+        "color13": "#FFB3B3",
+        "color14": "#AEB3C7",
+        "color15": "#d3dadb"
+    }
+}

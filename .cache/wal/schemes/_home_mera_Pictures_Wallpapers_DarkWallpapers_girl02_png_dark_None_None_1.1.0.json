@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/girl02.png",
+    "alpha": "100",
+    "special": {
+        "background": "#100c18",
+        "foreground": "#f2e9e0",
+        "cursor": "#f2e9e0"
+    },
+    "colors": {
+        "color0": "#100c18",
+        "color1": "#B82A5B",
+        "color2": "#639464",
+        "color3": "#EA9C73",
+        "color4": "#746684",
+        "color5": "#AE5A8C",
+        "color6": "#D2A79A",
+        "color7": "#f2e9e0",
+        "color8": "#a9a39c",
+        "color9": "#B82A5B",
+        "color10": "#639464",
+        "color11": "#EA9C73",
+        "color12": "#746684",
+        "color13": "#AE5A8C",
+        "color14": "#D2A79A",
+        "color15": "#f2e9e0"
+    }
+}

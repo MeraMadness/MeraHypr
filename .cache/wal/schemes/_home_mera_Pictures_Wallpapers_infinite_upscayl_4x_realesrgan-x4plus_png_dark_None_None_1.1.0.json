@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/infinite_upscayl_4x_realesrgan-x4plus.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0C0E",
+        "foreground": "#c3c5c7",
+        "cursor": "#c3c5c7"
+    },
+    "colors": {
+        "color0": "#0E0C0E",
+        "color1": "#AA3B1E",
+        "color2": "#21B23D",
+        "color3": "#BFB919",
+        "color4": "#2C5897",
+        "color5": "#933A9E",
+        "color6": "#39A7BA",
+        "color7": "#c3c5c7",
+        "color8": "#88898b",
+        "color9": "#AA3B1E",
+        "color10": "#21B23D",
+        "color11": "#BFB919",
+        "color12": "#2C5897",
+        "color13": "#933A9E",
+        "color14": "#39A7BA",
+        "color15": "#c3c5c7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/968383.png",
+    "alpha": "100",
+    "special": {
+        "background": "#372d24",
+        "foreground": "#e2cee3",
+        "cursor": "#e2cee3"
+    },
+    "colors": {
+        "color0": "#372d24",
+        "color1": "#EF33D6",
+        "color2": "#F351D9",
+        "color3": "#E464D8",
+        "color4": "#F270E3",
+        "color5": "#B9AAB0",
+        "color6": "#E193DC",
+        "color7": "#e2cee3",
+        "color8": "#9e909e",
+        "color9": "#EF33D6",
+        "color10": "#F351D9",
+        "color11": "#E464D8",
+        "color12": "#F270E3",
+        "color13": "#B9AAB0",
+        "color14": "#E193DC",
+        "color15": "#e2cee3"
+    }
+}

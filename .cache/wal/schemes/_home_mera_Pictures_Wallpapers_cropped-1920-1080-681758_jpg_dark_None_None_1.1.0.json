@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/cropped-1920-1080-681758.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0710",
+        "foreground": "#c9bdc9",
+        "cursor": "#c9bdc9"
+    },
+    "colors": {
+        "color0": "#0D0710",
+        "color1": "#4E374B",
+        "color2": "#3C4255",
+        "color3": "#624F67",
+        "color4": "#8C6675",
+        "color5": "#74698D",
+        "color6": "#8F7893",
+        "color7": "#c9bdc9",
+        "color8": "#8c848c",
+        "color9": "#4E374B",
+        "color10": "#3C4255",
+        "color11": "#624F67",
+        "color12": "#8C6675",
+        "color13": "#74698D",
+        "color14": "#8F7893",
+        "color15": "#c9bdc9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/lighttheme01.png",
+    "alpha": "100",
+    "special": {
+        "background": "#2d2e39",
+        "foreground": "#dbf0ef",
+        "cursor": "#dbf0ef"
+    },
+    "colors": {
+        "color0": "#2d2e39",
+        "color1": "#91BEBB",
+        "color2": "#D38CB2",
+        "color3": "#FDB1BD",
+        "color4": "#C8BBC1",
+        "color5": "#A8DDDC",
+        "color6": "#EAD6D5",
+        "color7": "#dbf0ef",
+        "color8": "#99a8a7",
+        "color9": "#91BEBB",
+        "color10": "#D38CB2",
+        "color11": "#FDB1BD",
+        "color12": "#C8BBC1",
+        "color13": "#A8DDDC",
+        "color14": "#EAD6D5",
+        "color15": "#dbf0ef"
+    }
+}

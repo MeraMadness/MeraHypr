@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/amicia4.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0706",
+        "foreground": "#e8e7e3",
+        "cursor": "#e8e7e3"
+    },
+    "colors": {
+        "color0": "#0a0706",
+        "color1": "#95715A",
+        "color2": "#BD8E6A",
+        "color3": "#6A8593",
+        "color4": "#A8B0B0",
+        "color5": "#D4B095",
+        "color6": "#E9CDAE",
+        "color7": "#e8e7e3",
+        "color8": "#a2a19e",
+        "color9": "#95715A",
+        "color10": "#BD8E6A",
+        "color11": "#6A8593",
+        "color12": "#A8B0B0",
+        "color13": "#D4B095",
+        "color14": "#E9CDAE",
+        "color15": "#e8e7e3"
+    }
+}

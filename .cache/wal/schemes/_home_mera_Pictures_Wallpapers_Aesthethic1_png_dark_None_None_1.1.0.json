@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/Aesthethic1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C1932",
+        "foreground": "#bab8df",
+        "cursor": "#bab8df"
+    },
+    "colors": {
+        "color0": "#0C1932",
+        "color1": "#645ABC",
+        "color2": "#915193",
+        "color3": "#A4559B",
+        "color4": "#F7548B",
+        "color5": "#E75E97",
+        "color6": "#BD6AD5",
+        "color7": "#bab8df",
+        "color8": "#82809c",
+        "color9": "#645ABC",
+        "color10": "#915193",
+        "color11": "#A4559B",
+        "color12": "#F7548B",
+        "color13": "#E75E97",
+        "color14": "#BD6AD5",
+        "color15": "#bab8df"
+    }
+}

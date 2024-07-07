@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/lain1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f150e",
+        "foreground": "#c1c9e5",
+        "cursor": "#c1c9e5"
+    },
+    "colors": {
+        "color0": "#0f150e",
+        "color1": "#3A5390",
+        "color2": "#5269AA",
+        "color3": "#607BC3",
+        "color4": "#6A87B4",
+        "color5": "#718FD1",
+        "color6": "#6E95D7",
+        "color7": "#c1c9e5",
+        "color8": "#878ca0",
+        "color9": "#3A5390",
+        "color10": "#5269AA",
+        "color11": "#607BC3",
+        "color12": "#6A87B4",
+        "color13": "#718FD1",
+        "color14": "#6E95D7",
+        "color15": "#c1c9e5"
+    }
+}

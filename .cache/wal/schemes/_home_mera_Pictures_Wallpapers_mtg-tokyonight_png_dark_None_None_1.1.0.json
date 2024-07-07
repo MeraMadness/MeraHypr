@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/mtg-tokyonight.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0E19",
+        "foreground": "#dca1ac",
+        "cursor": "#dca1ac"
+    },
+    "colors": {
+        "color0": "#0C0E19",
+        "color1": "#534358",
+        "color2": "#6F4156",
+        "color3": "#923D52",
+        "color4": "#A53E54",
+        "color5": "#9F455B",
+        "color6": "#AE4359",
+        "color7": "#dca1ac",
+        "color8": "#9a7078",
+        "color9": "#534358",
+        "color10": "#6F4156",
+        "color11": "#923D52",
+        "color12": "#A53E54",
+        "color13": "#9F455B",
+        "color14": "#AE4359",
+        "color15": "#dca1ac"
+    }
+}

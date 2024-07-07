@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/gothic_vampire.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c10",
+        "foreground": "#e6e7e6",
+        "cursor": "#e6e7e6"
+    },
+    "colors": {
+        "color0": "#0a0c10",
+        "color1": "#957E6B",
+        "color2": "#627588",
+        "color3": "#748899",
+        "color4": "#9F9EA5",
+        "color5": "#BBC1C2",
+        "color6": "#D4D7D7",
+        "color7": "#e6e7e6",
+        "color8": "#a1a1a1",
+        "color9": "#957E6B",
+        "color10": "#627588",
+        "color11": "#748899",
+        "color12": "#9F9EA5",
+        "color13": "#BBC1C2",
+        "color14": "#D4D7D7",
+        "color15": "#e6e7e6"
+    }
+}

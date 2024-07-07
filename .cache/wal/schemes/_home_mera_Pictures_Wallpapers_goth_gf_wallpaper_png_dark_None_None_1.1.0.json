@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/goth_gf_wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#09090c",
+        "foreground": "#e2dedf",
+        "cursor": "#e2dedf"
+    },
+    "colors": {
+        "color0": "#09090c",
+        "color1": "#857D82",
+        "color2": "#D47A87",
+        "color3": "#938C90",
+        "color4": "#A49B9E",
+        "color5": "#B2AAAC",
+        "color6": "#C7B8BA",
+        "color7": "#e2dedf",
+        "color8": "#9e9b9c",
+        "color9": "#857D82",
+        "color10": "#D47A87",
+        "color11": "#938C90",
+        "color12": "#A49B9E",
+        "color13": "#B2AAAC",
+        "color14": "#C7B8BA",
+        "color15": "#e2dedf"
+    }
+}

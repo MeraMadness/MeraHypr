@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/LightWallpapers/w95.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefef0",
+        "foreground": "#464B7B",
+        "cursor": "#464B7B"
+    },
+    "colors": {
+        "color0": "#fefef0",
+        "color1": "#9B5B87",
+        "color2": "#E94D86",
+        "color3": "#EA6E86",
+        "color4": "#66A681",
+        "color5": "#A3BD8B",
+        "color6": "#ECA18B",
+        "color7": "#464B7B",
+        "color8": "#97965e",
+        "color9": "#9B5B87",
+        "color10": "#E94D86",
+        "color11": "#EA6E86",
+        "color12": "#66A681",
+        "color13": "#A3BD8B",
+        "color14": "#ECA18B",
+        "color15": "#464B7B"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/zerotwo.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0711",
+        "foreground": "#ecc7e8",
+        "cursor": "#ecc7e8"
+    },
+    "colors": {
+        "color0": "#0D0711",
+        "color1": "#674C93",
+        "color2": "#9C649C",
+        "color3": "#C247A7",
+        "color4": "#DE5BA5",
+        "color5": "#EC6CD4",
+        "color6": "#B88FB4",
+        "color7": "#ecc7e8",
+        "color8": "#a58ba2",
+        "color9": "#674C93",
+        "color10": "#9C649C",
+        "color11": "#C247A7",
+        "color12": "#DE5BA5",
+        "color13": "#EC6CD4",
+        "color14": "#B88FB4",
+        "color15": "#ecc7e8"
+    }
+}

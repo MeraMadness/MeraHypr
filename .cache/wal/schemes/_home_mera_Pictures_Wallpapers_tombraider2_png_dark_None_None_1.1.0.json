@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/tombraider2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c0c",
+        "foreground": "#acbec3",
+        "cursor": "#acbec3"
+    },
+    "colors": {
+        "color0": "#0c0c0c",
+        "color1": "#2D3B43",
+        "color2": "#344851",
+        "color3": "#3C5861",
+        "color4": "#525F63",
+        "color5": "#885138",
+        "color6": "#98604B",
+        "color7": "#acbec3",
+        "color8": "#788588",
+        "color9": "#2D3B43",
+        "color10": "#344851",
+        "color11": "#3C5861",
+        "color12": "#525F63",
+        "color13": "#885138",
+        "color14": "#98604B",
+        "color15": "#acbec3"
+    }
+}

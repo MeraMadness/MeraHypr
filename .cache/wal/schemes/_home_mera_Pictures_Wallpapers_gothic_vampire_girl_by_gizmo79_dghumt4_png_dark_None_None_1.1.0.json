@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/gothic_vampire_girl_by_gizmo79_dghumt4.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090b0f",
+        "foreground": "#e0e2e2",
+        "cursor": "#e0e2e2"
+    },
+    "colors": {
+        "color0": "#090b0f",
+        "color1": "#887D7C",
+        "color2": "#386381",
+        "color3": "#657687",
+        "color4": "#768695",
+        "color5": "#9E9EA4",
+        "color6": "#B9C0C3",
+        "color7": "#e0e2e2",
+        "color8": "#9c9e9e",
+        "color9": "#887D7C",
+        "color10": "#386381",
+        "color11": "#657687",
+        "color12": "#768695",
+        "color13": "#9E9EA4",
+        "color14": "#B9C0C3",
+        "color15": "#e0e2e2"
+    }
+}

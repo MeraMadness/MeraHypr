@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/orangeroad.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#2e1a19",
+        "foreground": "#f4e6ce",
+        "cursor": "#f4e6ce"
+    },
+    "colors": {
+        "color0": "#2e1a19",
+        "color1": "#FFC05F",
+        "color2": "#FCC37A",
+        "color3": "#7C8E81",
+        "color4": "#AB9D92",
+        "color5": "#F3BB86",
+        "color6": "#FBCA90",
+        "color7": "#f4e6ce",
+        "color8": "#aaa190",
+        "color9": "#FFC05F",
+        "color10": "#FCC37A",
+        "color11": "#7C8E81",
+        "color12": "#AB9D92",
+        "color13": "#F3BB86",
+        "color14": "#FBCA90",
+        "color15": "#f4e6ce"
+    }
+}

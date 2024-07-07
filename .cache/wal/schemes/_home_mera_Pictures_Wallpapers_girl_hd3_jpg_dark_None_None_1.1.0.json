@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/girl_hd3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10000d",
+        "foreground": "#e4dcd1",
+        "cursor": "#e4dcd1"
+    },
+    "colors": {
+        "color0": "#10000d",
+        "color1": "#A05769",
+        "color2": "#C7645A",
+        "color3": "#927184",
+        "color4": "#A56B8C",
+        "color5": "#D0A8AA",
+        "color6": "#C0A1B3",
+        "color7": "#e4dcd1",
+        "color8": "#9f9a92",
+        "color9": "#A05769",
+        "color10": "#C7645A",
+        "color11": "#927184",
+        "color12": "#A56B8C",
+        "color13": "#D0A8AA",
+        "color14": "#C0A1B3",
+        "color15": "#e4dcd1"
+    }
+}

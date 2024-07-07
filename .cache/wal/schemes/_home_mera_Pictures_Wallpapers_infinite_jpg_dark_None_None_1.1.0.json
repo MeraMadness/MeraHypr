@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/infinite.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0D0E",
+        "foreground": "#c3c4c6",
+        "cursor": "#c3c4c6"
+    },
+    "colors": {
+        "color0": "#0E0D0E",
+        "color1": "#5B6066",
+        "color2": "#A34628",
+        "color3": "#2FAA42",
+        "color4": "#A69742",
+        "color5": "#356098",
+        "color6": "#3EA1B7",
+        "color7": "#c3c4c6",
+        "color8": "#88898a",
+        "color9": "#5B6066",
+        "color10": "#A34628",
+        "color11": "#2FAA42",
+        "color12": "#A69742",
+        "color13": "#356098",
+        "color14": "#3EA1B7",
+        "color15": "#c3c4c6"
+    }
+}

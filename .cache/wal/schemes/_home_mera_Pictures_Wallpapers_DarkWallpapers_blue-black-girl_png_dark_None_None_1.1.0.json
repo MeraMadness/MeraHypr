@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/blue-black-girl.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b0e",
+        "foreground": "#bdc1c7",
+        "cursor": "#bdc1c7"
+    },
+    "colors": {
+        "color0": "#0a0b0e",
+        "color1": "#515B68",
+        "color2": "#3B668A",
+        "color3": "#567794",
+        "color4": "#788697",
+        "color5": "#4D86B6",
+        "color6": "#508EC2",
+        "color7": "#bdc1c7",
+        "color8": "#84878b",
+        "color9": "#515B68",
+        "color10": "#3B668A",
+        "color11": "#567794",
+        "color12": "#788697",
+        "color13": "#4D86B6",
+        "color14": "#508EC2",
+        "color15": "#bdc1c7"
+    }
+}

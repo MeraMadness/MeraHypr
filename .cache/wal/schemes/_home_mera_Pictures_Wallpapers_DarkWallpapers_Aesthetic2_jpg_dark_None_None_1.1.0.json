@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/Aesthetic2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010001",
+        "foreground": "#d9d9d9",
+        "cursor": "#d9d9d9"
+    },
+    "colors": {
+        "color0": "#010001",
+        "color1": "#0E0DBA",
+        "color2": "#BC13BA",
+        "color3": "#27BBBF",
+        "color4": "#04C4C6",
+        "color5": "#C6C6AF",
+        "color6": "#B6BFC8",
+        "color7": "#d9d9d9",
+        "color8": "#979797",
+        "color9": "#0E0DBA",
+        "color10": "#BC13BA",
+        "color11": "#27BBBF",
+        "color12": "#04C4C6",
+        "color13": "#C6C6AF",
+        "color14": "#B6BFC8",
+        "color15": "#d9d9d9"
+    }
+}

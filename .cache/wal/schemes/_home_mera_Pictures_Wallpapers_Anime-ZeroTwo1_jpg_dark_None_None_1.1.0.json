@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/Anime-ZeroTwo1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0f0d",
+        "foreground": "#cec3c2",
+        "cursor": "#cec3c2"
+    },
+    "colors": {
+        "color0": "#0f0f0d",
+        "color1": "#4D4B4C",
+        "color2": "#6C5D5D",
+        "color3": "#933F36",
+        "color4": "#976763",
+        "color5": "#B0847B",
+        "color6": "#957D85",
+        "color7": "#cec3c2",
+        "color8": "#908887",
+        "color9": "#4D4B4C",
+        "color10": "#6C5D5D",
+        "color11": "#933F36",
+        "color12": "#976763",
+        "color13": "#B0847B",
+        "color14": "#957D85",
+        "color15": "#cec3c2"
+    }
+}

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/mera/.cache/current_wallpaper.jpg"
+let background = "#121f3a"
+let foreground = "#eedee9"
+let cursor     = "#eedee9"
+
+" Colors
+let color0  = "#121f3a"
+let color1  = "#9476B8"
+let color2  = "#7587AD"
+let color3  = "#9B92B3"
+let color4  = "#A792CB"
+let color5  = "#C5ACC2"
+let color6  = "#DAA4DB"
+let color7  = "#eedee9"
+let color8  = "#a69ba3"
+let color9  = "#9476B8"
+let color10 = "#7587AD"
+let color11 = "#9B92B3"
+let color12 = "#A792CB"
+let color13 = "#C5ACC2"
+let color14 = "#DAA4DB"
+let color15 = "#eedee9"

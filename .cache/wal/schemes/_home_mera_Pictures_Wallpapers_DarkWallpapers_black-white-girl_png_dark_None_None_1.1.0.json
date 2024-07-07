@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/black-white-girl.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121212",
+        "foreground": "#cac8cf",
+        "cursor": "#cac8cf"
+    },
+    "colors": {
+        "color0": "#121212",
+        "color1": "#896F7F",
+        "color2": "#7C8551",
+        "color3": "#9CAC55",
+        "color4": "#676687",
+        "color5": "#A26E9C",
+        "color6": "#888888",
+        "color7": "#cac8cf",
+        "color8": "#8d8c90",
+        "color9": "#896F7F",
+        "color10": "#7C8551",
+        "color11": "#9CAC55",
+        "color12": "#676687",
+        "color13": "#A26E9C",
+        "color14": "#888888",
+        "color15": "#cac8cf"
+    }
+}

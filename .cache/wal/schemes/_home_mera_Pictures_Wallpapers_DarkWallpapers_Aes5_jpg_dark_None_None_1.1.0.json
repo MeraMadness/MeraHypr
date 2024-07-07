@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/Aes5.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030203",
+        "foreground": "#e9eae9",
+        "cursor": "#e9eae9"
+    },
+    "colors": {
+        "color0": "#030203",
+        "color1": "#D42DD4",
+        "color2": "#E45CE3",
+        "color3": "#7F9380",
+        "color4": "#9FA79F",
+        "color5": "#9FF49F",
+        "color6": "#EF9FEF",
+        "color7": "#e9eae9",
+        "color8": "#a3a3a3",
+        "color9": "#D42DD4",
+        "color10": "#E45CE3",
+        "color11": "#7F9380",
+        "color12": "#9FA79F",
+        "color13": "#9FF49F",
+        "color14": "#EF9FEF",
+        "color15": "#e9eae9"
+    }
+}

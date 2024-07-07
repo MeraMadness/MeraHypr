@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/happylight.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#3d3546",
+        "foreground": "#e2ebea",
+        "cursor": "#e2ebea"
+    },
+    "colors": {
+        "color0": "#3d3546",
+        "color1": "#B4B7BF",
+        "color2": "#D590B1",
+        "color3": "#FCB0BD",
+        "color4": "#91C1BC",
+        "color5": "#FBB3C2",
+        "color6": "#ABDCDB",
+        "color7": "#e2ebea",
+        "color8": "#9ea4a3",
+        "color9": "#B4B7BF",
+        "color10": "#D590B1",
+        "color11": "#FCB0BD",
+        "color12": "#91C1BC",
+        "color13": "#FBB3C2",
+        "color14": "#ABDCDB",
+        "color15": "#e2ebea"
+    }
+}

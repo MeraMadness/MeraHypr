@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/Anime-Wall2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#17172d",
+        "foreground": "#c5c4f2",
+        "cursor": "#c5c4f2"
+    },
+    "colors": {
+        "color0": "#17172d",
+        "color1": "#9F35AA",
+        "color2": "#A6529F",
+        "color3": "#EF5AB1",
+        "color4": "#A563ED",
+        "color5": "#E26BED",
+        "color6": "#53ACE9",
+        "color7": "#c5c4f2",
+        "color8": "#8989a9",
+        "color9": "#9F35AA",
+        "color10": "#A6529F",
+        "color11": "#EF5AB1",
+        "color12": "#A563ED",
+        "color13": "#E26BED",
+        "color14": "#53ACE9",
+        "color15": "#c5c4f2"
+    }
+}

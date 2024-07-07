@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/blue-black-girl_upscayl_3x_ultramix_balanced.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b0d",
+        "foreground": "#c3c7cd",
+        "cursor": "#c3c7cd"
+    },
+    "colors": {
+        "color0": "#0a0b0d",
+        "color1": "#467AAA",
+        "color2": "#78879B",
+        "color3": "#4E86BA",
+        "color4": "#4F8CC3",
+        "color5": "#848D9B",
+        "color6": "#959DAB",
+        "color7": "#c3c7cd",
+        "color8": "#888b8f",
+        "color9": "#467AAA",
+        "color10": "#78879B",
+        "color11": "#4E86BA",
+        "color12": "#4F8CC3",
+        "color13": "#848D9B",
+        "color14": "#959DAB",
+        "color15": "#c3c7cd"
+    }
+}

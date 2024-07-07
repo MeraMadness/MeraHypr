@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/LightWallpapers/backiee-269161-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfbfb",
+        "foreground": "#141419",
+        "cursor": "#141419"
+    },
+    "colors": {
+        "color0": "#fbfbfb",
+        "color1": "#898287",
+        "color2": "#929197",
+        "color3": "#B5B5B8",
+        "color4": "#CBAEAD",
+        "color5": "#BEBEC1",
+        "color6": "#D1D1D1",
+        "color7": "#141419",
+        "color8": "#898989",
+        "color9": "#898287",
+        "color10": "#929197",
+        "color11": "#B5B5B8",
+        "color12": "#CBAEAD",
+        "color13": "#BEBEC1",
+        "color14": "#D1D1D1",
+        "color15": "#141419"
+    }
+}

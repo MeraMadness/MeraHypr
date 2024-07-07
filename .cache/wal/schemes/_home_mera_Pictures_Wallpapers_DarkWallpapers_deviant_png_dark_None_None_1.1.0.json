@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/DarkWallpapers/deviant.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0D0F",
+        "foreground": "#e8e4e1",
+        "cursor": "#e8e4e1"
+    },
+    "colors": {
+        "color0": "#0F0D0F",
+        "color1": "#9B9594",
+        "color2": "#B5B1B0",
+        "color3": "#C4BAB2",
+        "color4": "#CBC4BC",
+        "color5": "#B5BCC7",
+        "color6": "#D2CECB",
+        "color7": "#e8e4e1",
+        "color8": "#a29f9d",
+        "color9": "#9B9594",
+        "color10": "#B5B1B0",
+        "color11": "#C4BAB2",
+        "color12": "#CBC4BC",
+        "color13": "#B5BCC7",
+        "color14": "#D2CECB",
+        "color15": "#e8e4e1"
+    }
+}

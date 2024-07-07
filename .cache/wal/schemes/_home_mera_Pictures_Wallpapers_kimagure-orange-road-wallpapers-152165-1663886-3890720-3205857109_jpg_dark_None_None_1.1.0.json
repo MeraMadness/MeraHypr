@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Pictures/Wallpapers/kimagure-orange-road-wallpapers-152165-1663886-3890720-3205857109.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010102",
+        "foreground": "#dee0cd",
+        "cursor": "#dee0cd"
+    },
+    "colors": {
+        "color0": "#010102",
+        "color1": "#A96D5C",
+        "color2": "#A98E6B",
+        "color3": "#D3966F",
+        "color4": "#897D83",
+        "color5": "#7698AE",
+        "color6": "#BBB9AC",
+        "color7": "#dee0cd",
+        "color8": "#9b9c8f",
+        "color9": "#A96D5C",
+        "color10": "#A98E6B",
+        "color11": "#D3966F",
+        "color12": "#897D83",
+        "color13": "#7698AE",
+        "color14": "#BBB9AC",
+        "color15": "#dee0cd"
+    }
+}
