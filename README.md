@@ -9,15 +9,16 @@ You can use Paru or Yay, it doesn't matter.
 - **Terminal** • [Kitty](https://sw.kovidgoyal.net/kitty/#)
 - **Bar** • [Waybar](https://github.com/Alexays/Waybar)
 - **Notify Daemon** • [SwayNC](https://github.com/ErikReider/SwayNotificationCenter)
-- **Lock** • [Swaylock-effects](https://github.com/mortie/swaylock-effects)
-- **Idle** • [SwayIdle](https://github.com/swaywm/swayidle)
+- **Lock** • [Hyprlock](https://wiki.hypr.land/Hypr-Ecosystem/hyprlock)
+- **Idle** • [Hypridle](https://github.com/hyprwm/hypridle)
 - **Apps Launcher** • [Rofi](https://github.com/lbonn/rofi)
 - **Wallpaper Selector** • [SWWW](https://github.com/LGFae/swww)
 - **File Manager** • [Thunar](https://wiki.archlinux.org/title/Thunar)
 - **Login Manager** • [SDDM](https://wiki.archlinux.org/title/SDDM)
 - **LoginCTL** • [Wlogout](https://github.com/ArtsyMacaw/wlogout)
 - **Wayland Clipboard** • [cliphist](https://github.com/sentriz/cliphist)
-- **Screenshot Utility** • [grim](https://github.com/emersion/grim) - [slurp](https://github.com/emersion/slurp)
+- **Wayland Clipboard-Manager** • [nwg-clipman](https://github.com/nwg-piotr/nwg-clipman)
+  **Screenshot Utility** • [grim](https://github.com/emersion/grim) - [slurp](https://github.com/emersion/slurp)
 - **Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Color Scheme Generator with Pywal** • [Pywal](https://github.com/dylanaraps/pywal)
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
@@ -38,8 +39,8 @@ Visual Studio Code Theme I use.
 
 ## ⛧ Images
 
-<img align="center" src="/img/layout.webp">
-<img align="center" src="/img/layout2.webp">
+<img align="center" src="/img/layout1.png">
+<img align="center" src="/img/layout2.png">
 
 https://github.com/MeraMadness/MeraHypr/assets/137096624/5ba13992-871b-4760-8e82-0db967f0259f
 
@@ -64,7 +65,15 @@ https://github.com/MeraMadness/MeraHypr/assets/137096624/5ba13992-871b-4760-8e82
 
 ```sh
 ### Hyprland + Other Stuff
-paru -S hyprland waybar swaync nwg-look-bin wlogout kitty ### Basic Stuff to get Hyprland working.
+paru -S hyprland waybar swaync nwg-look-bin wlogout kitty hypridle hyprlock ### Basic Stuff to get Hyprland working.
+```
+
+```sh
+### Hyprland - Hyprspace
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm add https://github.com/KZDKM/Hyprspace
+hyprpm enable Hyprspace
 ```
 
 </details>
@@ -74,9 +83,9 @@ paru -S hyprland waybar swaync nwg-look-bin wlogout kitty ### Basic Stuff to get
 
 ```sh
 ### Dependencies
-paru -S grim slurp gnome-keyring playerctl polkit-gnome qt5-quickcontrols imagemagick        \
+paru -S grim slurp gnome-keyring playerctl polkit-kde-agent qt5-quickcontrols imagemagick        \
 qt5-quickcontrols2 qt5-wayland qt6-wayland swww ttf-font-awesome tumbler ttf-jetbrains-mono     \
-ttf-icomoon-feather xdg-desktop-portal-hyprland xdotool xwaylandvideobridge-cursor-mode-2-git cliphist qt5-imageformats qt5ct   \
+ttf-icomoon-feather xdg-desktop-portal-hyprland xdotool nwg-clipman cliphist qt5-imageformats qt5ct   \
 python python-pipx
 ```
 </details>
@@ -102,7 +111,7 @@ paru -S visual-studio-code-bin
 
 ```sh
 # Theme Based
-paru -S catppuccin-gtk-theme-mocha python-pywal papirus-icon-theme sddm swaylock-effects-git
+paru -S materia-gtk-theme python-pywal sddm 
 ```
 
 ```sh
