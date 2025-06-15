@@ -11,7 +11,7 @@
 
 /* ---- Configuration ---- */
 configuration {
-    modi:                       "drun,run";
+    modi:                       "menu:~/.config/rofi/scripts/rofi-menu.sh,drun,run";
     font:                       "Fira Sans Bold 12";
     show-icons:                 true;
     icon-theme:                 "kora";
@@ -19,13 +19,14 @@ configuration {
     display-run:                "RUN";
     display-filebrowser:        "FILES";
     display-window:             "WINDOW";
-	drun-display-format:        "{name}";
+    drun-display-format:        "{name}";
     hover-select:               true;
     me-select-entry:            "";
     me-accept-entry:            "MousePrimary";
     window-format:              "{w} · {c} · {t}";
-    
+    display-menu:               "CATEGORIES";
 }
+
 
 /* ---- Load pywal colors (custom wal template) ---- */
 @import "~/.cache/wal/colors-rofi-pywal"
@@ -250,3 +251,4 @@ error-message {
     background-color:            @background;
     text-color:                  @foreground;
 }
+

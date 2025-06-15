@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/girlhat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a09",
+        "foreground": "#d8c9a6",
+        "cursor": "#d8c9a6"
+    },
+    "colors": {
+        "color0": "#0c0a09",
+        "color1": "#6C5234",
+        "color2": "#3D4041",
+        "color3": "#504D4A",
+        "color4": "#6A6056",
+        "color5": "#986833",
+        "color6": "#8C7454",
+        "color7": "#d8c9a6",
+        "color8": "#978c74",
+        "color9": "#6C5234",
+        "color10": "#3D4041",
+        "color11": "#504D4A",
+        "color12": "#6A6056",
+        "color13": "#986833",
+        "color14": "#8C7454",
+        "color15": "#d8c9a6"
+    }
+}

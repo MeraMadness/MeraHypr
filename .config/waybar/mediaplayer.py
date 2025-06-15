@@ -14,12 +14,24 @@ logger = logging.getLogger(__name__)
 def write_output(text, player):
     logger.info('Writing output')
 
-    output = {'text': text,
-              'class': 'custom-' + player.props.player_name,
-              'alt': player.props.player_name}
+    # Choose icon based on the player
+    if player.props.player_name == 'spotify':
+        icon = ' '  # Spotify icon
+    else:
+        icon = ' '  # Default music icon
+
+    # Prepend the icon to the text
+    text = f"{icon} {text}" if text else f"{icon} No Track Playing"
+
+    output = {
+        'text': text,
+        'class': 'custom-' + player.props.player_name,
+        'alt': player.props.player_name
+    }
 
     sys.stdout.write(json.dumps(output) + '\n')
     sys.stdout.flush()
+
 
 
 def on_play(player, status, manager):
@@ -125,4 +137,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

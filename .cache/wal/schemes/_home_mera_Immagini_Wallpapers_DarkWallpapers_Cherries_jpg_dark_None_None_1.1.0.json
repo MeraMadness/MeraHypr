@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/Cherries.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#39101e",
+        "foreground": "#f1dbcc",
+        "cursor": "#f1dbcc"
+    },
+    "colors": {
+        "color0": "#39101e",
+        "color1": "#A2857D",
+        "color2": "#E7934E",
+        "color3": "#A67592",
+        "color4": "#A4858B",
+        "color5": "#E7B396",
+        "color6": "#DEC5A7",
+        "color7": "#f1dbcc",
+        "color8": "#a8998e",
+        "color9": "#A2857D",
+        "color10": "#E7934E",
+        "color11": "#A67592",
+        "color12": "#A4858B",
+        "color13": "#E7B396",
+        "color14": "#DEC5A7",
+        "color15": "#f1dbcc"
+    }
+}

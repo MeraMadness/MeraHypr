@@ -1,126 +1,123 @@
 #!/bin/bash
 
-# Function to set the GTK theme
-set_gtk_theme() {
-    theme=$1
-    gsettings set org.gnome.desktop.interface gtk-theme "$theme"
-}
-
-# Function to set the icon theme
-set_icon_theme() {
-    theme=$1
-    gsettings set org.gnome.desktop.interface icon-theme "$theme"
-}
-
-# Paths to your light and dark GTK themes
+# ------------------ CONFIG ------------------
 GTK_LIGHT_THEME="Materia-light"
 GTK_DARK_THEME="Materia-dark"
-
-# Paths to your light and dark icon themes
 ICON_LIGHT_THEME="Tela-circle-light"
 ICON_DARK_THEME="Tela-circle-black-dark"
 
+LIGHT_DIR=~/Immagini/Wallpapers/LightWallpapers
+DARK_DIR=~/Immagini/Wallpapers/DarkWallpapers
+ALL_DIR=~/Immagini/Wallpapers/AllWallpapers
+DEFAULT_DIR="$ALL_DIR"
+# ------------------ END CONFIG --------------
 
-case $1 in
-    # Load wallpaper from .cache of last session 
+# Ensure ALL_DIR exists and includes both light and dark wallpapers
+mkdir -p "$ALL_DIR"
+find -L "$ALL_DIR" -type l -delete
+ln -sf "$LIGHT_DIR"/* "$ALL_DIR"/
+ln -sf "$DARK_DIR"/* "$ALL_DIR"/
+
+set_gtk_theme() {
+    gsettings set org.gnome.desktop.interface gtk-theme "$1"
+}
+set_icon_theme() {
+    gsettings set org.gnome.desktop.interface icon-theme "$1"
+}
+
+apply_wallpaper() {
+    input_path="$1"
+    real_path="$(readlink -f "$input_path")"
+
+    if [[ "$real_path" == "$LIGHT_DIR"* ]]; then
+        theme="light"
+        wal -l -q -i "$real_path"
+    else
+        theme="dark"
+        wal -q -i "$real_path"
+    fi
+
+    cp "$real_path" ~/.cache/current_wallpaper.jpg
+    source "$HOME/.cache/wal/colors.sh"
+
+    swww img "$real_path" \
+        --transition-bezier .43,1.19,1,.4 \
+        --transition-fps=60 \
+        --transition-type=outer \
+        --transition-duration=2.5 \
+        --transition-pos "$(hyprctl cursorpos)"
+
+    if [[ "$theme" == "light" ]]; then
+        set_gtk_theme "$GTK_LIGHT_THEME"
+        set_icon_theme "$ICON_LIGHT_THEME"
+    else
+        set_gtk_theme "$GTK_DARK_THEME"
+        set_icon_theme "$ICON_DARK_THEME"
+    fi
+
+    ~/.config/waybar/launch.sh
+    ~/.config/swaync/reload-swaync.sh
+    notify-send "Wallpaper and Theme Changed"
+    sleep 0.5
+    pywalfox update
+    waybar
+}
+
+# ------------------- MAIN --------------------
+
+case "$1" in
+    "apply")
+        if [ -f "$2" ]; then
+            apply_wallpaper "$2"
+        else
+            notify-send "Invalid wallpaper: $2"
+        fi
+        ;;
+
     "init")
         if [ -f ~/.cache/current_wallpaper.jpg ]; then
-            wal -q -i ~/.cache/current_wallpaper.jpg
+            wal -q -R
         else
-            wal -q -i ~/Pictures/Wallpapers/
+            wal -q -i "$DEFAULT_DIR"
         fi
-    ;;
+        ;;
 
-   # Select wallpaper with rofi
     "select")
-        selected=$(ls -1 ~/Pictures/Wallpapers/LightWallpapers/ ~/Pictures/Wallpapers/DarkWallpapers/ | rofi -dmenu -replace -config ~/.config/rofi/config-wallpaper.rasi)
-        if [ ! "$selected" ]; then
+        light_list=$(ls "$LIGHT_DIR" | sed 's/^/[Light] /')
+        dark_list=$(ls "$DARK_DIR" | sed 's/^/[Dark] /')
+        selected=$(printf "%s\n%s" "$light_list" "$dark_list" | rofi -dmenu -p "Select Wallpaper:" -config ~/.config/rofi/config-wallpaper.rasi)
+
+        if [[ "$selected" == "[Light] "* ]]; then
+            file="${selected#\[Light\] }"
+            apply_wallpaper "$LIGHT_DIR/$file"
+        elif [[ "$selected" == "[Dark] "* ]]; then
+            file="${selected#\[Dark\] }"
+            apply_wallpaper "$DARK_DIR/$file"
+        else
             echo "No wallpaper selected"
             exit
         fi
-        if [[ -f ~/Pictures/Wallpapers/LightWallpapers/$selected ]]; then
-            wallpaper=~/Pictures/Wallpapers/LightWallpapers/$selected
-            theme="light"
-            wal -l -q -i "$wallpaper" # Use the -l flag for light wallpapers
-        elif [[ -f ~/Pictures/Wallpapers/DarkWallpapers/$selected ]]; then
-            wallpaper=~/Pictures/Wallpapers/DarkWallpapers/$selected
-            theme="dark"
-            wal -q -i "$wallpaper" 
-        else
-            echo "Wallpaper not found"
-            exit
-        fi
-    ;;
+        ;;
 
-    # Randomly select wallpaper 
+    "browse")
+        PREVIEW=true \
+        rofi -no-config -theme ~/.config/rofi/wallpaper.rasi \
+            -show filebrowser \
+            -filebrowser-command "$0 apply" \
+            -filebrowser-directory "$ALL_DIR" \
+            -filebrowser-sorting-method mtime \
+            -selected-row 1
+        ;;
+
     *)
+        # Random
         if [ $((RANDOM % 2)) -eq 0 ]; then
-            wallpaper=$(ls ~/Pictures/Wallpapers/LightWallpapers/ | shuf -n 1)
-            wallpaper=~/Pictures/Wallpapers/LightWallpapers/$wallpaper
-            theme="light"
-            wal -l -q -i "$wallpaper" 
+            file=$(ls "$LIGHT_DIR" | shuf -n 1)
+            apply_wallpaper "$LIGHT_DIR/$file"
         else
-            wallpaper=$(ls ~/Pictures/Wallpapers/DarkWallpapers/ | shuf -n 1)
-            wallpaper=~/Pictures/Wallpapers/DarkWallpapers/$wallpaper
-            theme="dark"
-            wal -q -i "$wallpaper" 
+            file=$(ls "$DARK_DIR" | shuf -n 1)
+            apply_wallpaper "$DARK_DIR/$file"
         fi
-    ;;
+        ;;
 esac
 
-# ----------------------------------------------------- 
-# Load current pywal color scheme
-# ----------------------------------------------------- 
-source "$HOME/.cache/wal/colors.sh"
-echo "Wallpaper: $wallpaper"
-
-# ----------------------------------------------------- 
-# Copy selected wallpaper into .cache folder
-# ----------------------------------------------------- 
-cp "$wallpaper" ~/.cache/current_wallpaper.jpg
-
-# ----------------------------------------------------- 
-# Set the new wallpaper
-# -----------------------------------------------------
-# transition_type="wipe"
-transition_type="outer"
-# transition_type="random"
-
-swww img "$wallpaper" \
-    --transition-bezier .43,1.19,1,.4 \
-    --transition-fps=60 \
-    --transition-type=$transition_type \
-    --transition-duration=2.5 \
-    --transition-pos "$( hyprctl cursorpos )"
-
-# ----------------------------------------------------- 
-# Set GTK theme based on selected wallpaper
-# -----------------------------------------------------
-if [[ "$theme" == "light" ]]; then
-    set_gtk_theme "$GTK_LIGHT_THEME"
-    set_icon_theme "$ICON_LIGHT_THEME"
-    echo "Set theme to light"
-else
-    set_gtk_theme "$GTK_DARK_THEME"
-    set_icon_theme "$ICON_DARK_THEME"
-    echo "Set theme to dark"
-fi
-
-# ----------------------------------------------------- 
-# Reload waybar with new colors
-# -----------------------------------------------------
-~/.config/waybar/launch.sh
-
-# -----------------------------------------------------
-# Reload Swaync with new colors
-# -----------------------------------------------------
-~/.config/swaync/reload-swaync.sh
-
-# ----------------------------------------------------- 
-# Notify user
-# -----------------------------------------------------
-notify-send "Changing Color Scheme and Wallpaper"
-
-sleep 0.5
-pywalfox update
-waybar

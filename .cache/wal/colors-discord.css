@@ -11,67 +11,67 @@
     /* font-style: italic; */
 
     /* *.background */
-    --background-primary: #121f3a;
-    --background-secondary: #121f3a;
-    --background-tertiary: #121f3a;
+    --background-primary: #040404;
+    --background-secondary: #040404;
+    --background-tertiary: #040404;
 
-    --background-primary-alt: #121f3a;
-    --background-secondary-alt: #121f3a;
-    --background-tertiary-alt: #121f3a;
+    --background-primary-alt: #040404;
+    --background-secondary-alt: #040404;
+    --background-tertiary-alt: #040404;
 
-    --channeltextarea-background: #121f3a;
+    --channeltextarea-background: #040404;
 
-    --profile-gradient-primary-color: #121f3a;
-    --profile-gradient-secondary-color: #121f3a;
-    --profile-body-background-color: #121f3a;
+    --profile-gradient-primary-color: #040404;
+    --profile-gradient-secondary-color: #040404;
+    --profile-body-background-color: #040404;
 
-    --__header-bar-background: #121f3a;
+    --__header-bar-background: #040404;
 
-    --scrollbar-auto-track: #121f3a;
-    --scrollbar-thin-track: #121f3a;
+    --scrollbar-auto-track: #040404;
+    --scrollbar-thin-track: #040404;
     
     /* *.color2 */
-    --scrollbar-auto-thumb: #7587AD;
-    --scrollbar-thin-thumb: #7587AD;
+    --scrollbar-auto-thumb: #717072;
+    --scrollbar-thin-thumb: #717072;
 
     /* *.color3 */
-    --red-400: #9B92B3;
+    --red-400: #798358;
 
     /* *.color4 */
-    --status-danger: #A792CB;
-    --button-outline-danger-border: #A792CB;
-    --button-outline-danger-text: #A792CB;
-    --button-danger-background: #A792CB;
+    --status-danger: #807F80;
+    --button-outline-danger-border: #807F80;
+    --button-outline-danger-text: #807F80;
+    --button-danger-background: #807F80;
 
-    --yellow-300: #A792CB;
+    --yellow-300: #807F80;
 
     /* *.color5 */
-    --header-primary: #C5ACC2;
-    --brand-experiment: #C5ACC2;
-    --brand-experiment-360: #C5ACC2;
-    --brand-experiment-500: #C5ACC2;
-    --profile-gradient-button-color: #C5ACC2;
+    --header-primary: #929293;
+    --brand-experiment: #929293;
+    --brand-experiment-360: #929293;
+    --brand-experiment-500: #929293;
+    --profile-gradient-button-color: #929293;
 
-    --green-360: #C5ACC2;
+    --green-360: #929293;
 
     /* *.color6 */
-    --channels-default: #DAA4DB;
-    --channel-icon: #DAA4DB;
+    --channels-default: #A09F9F;
+    --channel-icon: #A09F9F;
 
     /* *.color7 */
-    --text-normal: #eedee9;
-    --interactive-active: #eedee9;
+    --text-normal: #cccccc;
+    --interactive-active: #cccccc;
 }
 
 /* status indicators */
 rect[fill="#f23f43"] {
-    fill: #9B92B3 !important;
+    fill: #798358 !important;
 }
 
 rect[fill="#f0b232"] {
-    fill: #A792CB !important;
+    fill: #807F80 !important;
 }
 
 rect[fill="#23a55a"] {
-    fill: #C5ACC2 !important;
+    fill: #929293 !important;
 }

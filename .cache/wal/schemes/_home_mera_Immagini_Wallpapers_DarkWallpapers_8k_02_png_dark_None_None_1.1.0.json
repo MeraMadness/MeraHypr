@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/8k_02.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0A0B",
+        "foreground": "#dedede",
+        "cursor": "#dedede"
+    },
+    "colors": {
+        "color0": "#0C0A0B",
+        "color1": "#8A4748",
+        "color2": "#827F80",
+        "color3": "#8F8E8F",
+        "color4": "#A69999",
+        "color5": "#B2B1B2",
+        "color6": "#C2BCBC",
+        "color7": "#dedede",
+        "color8": "#9b9b9b",
+        "color9": "#8A4748",
+        "color10": "#827F80",
+        "color11": "#8F8E8F",
+        "color12": "#A69999",
+        "color13": "#B2B1B2",
+        "color14": "#C2BCBC",
+        "color15": "#dedede"
+    }
+}

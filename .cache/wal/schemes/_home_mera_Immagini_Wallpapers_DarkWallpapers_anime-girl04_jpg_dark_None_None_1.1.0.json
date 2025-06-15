@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/anime-girl04.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0608",
+        "foreground": "#e3c7c9",
+        "cursor": "#e3c7c9"
+    },
+    "colors": {
+        "color0": "#0B0608",
+        "color1": "#905C6C",
+        "color2": "#946477",
+        "color3": "#A46068",
+        "color4": "#9F847A",
+        "color5": "#A16F85",
+        "color6": "#D7699E",
+        "color7": "#e3c7c9",
+        "color8": "#9e8b8c",
+        "color9": "#905C6C",
+        "color10": "#946477",
+        "color11": "#A46068",
+        "color12": "#9F847A",
+        "color13": "#A16F85",
+        "color14": "#D7699E",
+        "color15": "#e3c7c9"
+    }
+}

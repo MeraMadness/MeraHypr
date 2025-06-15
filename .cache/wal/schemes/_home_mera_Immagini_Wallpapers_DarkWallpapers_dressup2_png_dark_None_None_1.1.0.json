@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/dressup2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0c0f",
+        "foreground": "#f5e5d9",
+        "cursor": "#f5e5d9"
+    },
+    "colors": {
+        "color0": "#0d0c0f",
+        "color1": "#946390",
+        "color2": "#AEA4A3",
+        "color3": "#DEA797",
+        "color4": "#FF98A3",
+        "color5": "#FFAEAE",
+        "color6": "#F6C8A7",
+        "color7": "#f5e5d9",
+        "color8": "#aba097",
+        "color9": "#946390",
+        "color10": "#AEA4A3",
+        "color11": "#DEA797",
+        "color12": "#FF98A3",
+        "color13": "#FFAEAE",
+        "color14": "#F6C8A7",
+        "color15": "#f5e5d9"
+    }
+}

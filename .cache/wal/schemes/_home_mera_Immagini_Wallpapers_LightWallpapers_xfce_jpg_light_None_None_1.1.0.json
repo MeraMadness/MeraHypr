@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/LightWallpapers/xfce.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbf3f8",
+        "foreground": "#1C0715",
+        "cursor": "#1C0715"
+    },
+    "colors": {
+        "color0": "#fbf3f8",
+        "color1": "#997BA3",
+        "color2": "#CB7398",
+        "color3": "#B28DAF",
+        "color4": "#C69CBB",
+        "color5": "#BDA0C8",
+        "color6": "#C59DC5",
+        "color7": "#1C0715",
+        "color8": "#8a6c7e",
+        "color9": "#997BA3",
+        "color10": "#CB7398",
+        "color11": "#B28DAF",
+        "color12": "#C69CBB",
+        "color13": "#BDA0C8",
+        "color14": "#C59DC5",
+        "color15": "#1C0715"
+    }
+}

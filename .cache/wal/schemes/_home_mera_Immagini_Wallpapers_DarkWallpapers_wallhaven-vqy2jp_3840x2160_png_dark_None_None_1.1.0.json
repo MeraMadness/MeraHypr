@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/wallhaven-vqy2jp_3840x2160.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080C15",
+        "foreground": "#ded5d7",
+        "cursor": "#ded5d7"
+    },
+    "colors": {
+        "color0": "#080C15",
+        "color1": "#965E6A",
+        "color2": "#3F5780",
+        "color3": "#5C6A8C",
+        "color4": "#897C94",
+        "color5": "#A49BAA",
+        "color6": "#CAB1B7",
+        "color7": "#ded5d7",
+        "color8": "#9b9596",
+        "color9": "#965E6A",
+        "color10": "#3F5780",
+        "color11": "#5C6A8C",
+        "color12": "#897C94",
+        "color13": "#A49BAA",
+        "color14": "#CAB1B7",
+        "color15": "#ded5d7"
+    }
+}

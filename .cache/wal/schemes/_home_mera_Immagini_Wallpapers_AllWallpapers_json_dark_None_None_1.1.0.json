@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/AllWallpapers/json",
+    "alpha": "100",
+    "special": {
+        "background": "#129812",
+        "foreground": "#bbc2bb",
+        "cursor": "#bbc2bb"
+    },
+    "colors": {
+        "color0": "#129812",
+        "color1": "#416851",
+        "color2": "#6D2A6D",
+        "color3": "#0AB921",
+        "color4": "#4EBF6C",
+        "color5": "#646F67",
+        "color6": "#71F789",
+        "color7": "#bbc2bb",
+        "color8": "#828782",
+        "color9": "#416851",
+        "color10": "#6D2A6D",
+        "color11": "#0AB921",
+        "color12": "#4EBF6C",
+        "color13": "#646F67",
+        "color14": "#71F789",
+        "color15": "#bbc2bb"
+    }
+}

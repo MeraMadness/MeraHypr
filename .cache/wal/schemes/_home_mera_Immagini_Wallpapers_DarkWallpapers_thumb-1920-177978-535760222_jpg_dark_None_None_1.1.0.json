@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/thumb-1920-177978-535760222.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050001",
+        "foreground": "#ecc4c2",
+        "cursor": "#ecc4c2"
+    },
+    "colors": {
+        "color0": "#050001",
+        "color1": "#C90C0D",
+        "color2": "#CA2F2E",
+        "color3": "#EB2223",
+        "color4": "#C64545",
+        "color5": "#DB5A5A",
+        "color6": "#F18479",
+        "color7": "#ecc4c2",
+        "color8": "#a58987",
+        "color9": "#C90C0D",
+        "color10": "#CA2F2E",
+        "color11": "#EB2223",
+        "color12": "#C64545",
+        "color13": "#DB5A5A",
+        "color14": "#F18479",
+        "color15": "#ecc4c2"
+    }
+}

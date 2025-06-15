@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/a_woman_with_long_hair_wearing_sunglasses.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#e9ebef",
+        "cursor": "#e9ebef"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#ACAFB4",
+        "color2": "#BABDC2",
+        "color3": "#BEC1C6",
+        "color4": "#CDD0D5",
+        "color5": "#D9DDE3",
+        "color6": "#DEE2E8",
+        "color7": "#e9ebef",
+        "color8": "#a3a4a7",
+        "color9": "#ACAFB4",
+        "color10": "#BABDC2",
+        "color11": "#BEC1C6",
+        "color12": "#CDD0D5",
+        "color13": "#D9DDE3",
+        "color14": "#DEE2E8",
+        "color15": "#e9ebef"
+    }
+}

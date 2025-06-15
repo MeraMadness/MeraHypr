@@ -1,0 +1,88 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+* {
+    font: "Fira Code Nerd Font 12";
+    text-color: @foreground;
+    background-color: transparent;
+}
+
+window {
+    background-color: @background;
+    border: 2;
+    border-color: @color4;
+    border-radius: 12;
+    padding: 30px;
+    location: center;
+    width: 80%;
+    height: 85%;
+    children: [logo, inputbar, listview];
+    orientation: vertical;
+    spacing: 20px;
+}
+
+logo {
+    filename: "/path/to/your/logo.png";  /* Change this to your actual logo path */
+    size: 100px;
+    horizontal-align: 0.5;
+    expand: false;
+}
+
+inputbar {
+    spacing: 10px;
+    padding: 10px;
+    border: 2;
+    border-color: @color4;
+    border-radius: 8;
+    background-color: @color0;
+    children: [icon-search, entry];
+}
+
+icon-search {
+    expand: false;
+    filename: "system-search";
+    size: 1ch;
+}
+
+entry {
+    expand: true;
+    placeholder: "Choose your vibe...";
+    placeholder-color: @color8;
+    text-color: @foreground;
+    background-color: transparent;
+}
+
+listview {
+    flow: horizontal;
+    fixed-columns: true;
+    columns: 5;
+    lines: 2;
+    spacing: 20px;
+    background-color: transparent;
+    layout: vertical;
+}
+
+element {
+    orientation: vertical;
+    padding: 5px;
+    border: 2;
+    border-color: @color4;
+    border-radius: 10;
+    background-color: @color0;
+    children: [element-icon];
+}
+
+element-icon {
+    size: 130px;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+element-text {
+    text-color: transparent;
+    background-color: transparent;
+}
+
+element selected {
+    border-color: @color2;
+    background-color: @color4;
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/lainblue.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050911",
+        "foreground": "#bac9db",
+        "cursor": "#bac9db"
+    },
+    "colors": {
+        "color0": "#050911",
+        "color1": "#4E6479",
+        "color2": "#4F6B83",
+        "color3": "#637C96",
+        "color4": "#7591B1",
+        "color5": "#7F9DC1",
+        "color6": "#809EC2",
+        "color7": "#bac9db",
+        "color8": "#828c99",
+        "color9": "#4E6479",
+        "color10": "#4F6B83",
+        "color11": "#637C96",
+        "color12": "#7591B1",
+        "color13": "#7F9DC1",
+        "color14": "#809EC2",
+        "color15": "#bac9db"
+    }
+}

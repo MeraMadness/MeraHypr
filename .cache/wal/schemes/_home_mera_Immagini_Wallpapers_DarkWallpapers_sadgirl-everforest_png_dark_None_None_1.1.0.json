@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/sadgirl-everforest.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1215",
+        "foreground": "#d9d5c9",
+        "cursor": "#d9d5c9"
+    },
+    "colors": {
+        "color0": "#0f1215",
+        "color1": "#80857A",
+        "color2": "#89887A",
+        "color3": "#8D9589",
+        "color4": "#A7A898",
+        "color5": "#9DA9A0",
+        "color6": "#AFB3A3",
+        "color7": "#d9d5c9",
+        "color8": "#97958c",
+        "color9": "#80857A",
+        "color10": "#89887A",
+        "color11": "#8D9589",
+        "color12": "#A7A898",
+        "color13": "#9DA9A0",
+        "color14": "#AFB3A3",
+        "color15": "#d9d5c9"
+    }
+}

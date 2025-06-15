@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/lain_02.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a0a",
+        "foreground": "#cfb1b9",
+        "cursor": "#cfb1b9"
+    },
+    "colors": {
+        "color0": "#0c0a0a",
+        "color1": "#573C43",
+        "color2": "#683E48",
+        "color3": "#554949",
+        "color4": "#6C434D",
+        "color5": "#706664",
+        "color6": "#966770",
+        "color7": "#cfb1b9",
+        "color8": "#907b81",
+        "color9": "#573C43",
+        "color10": "#683E48",
+        "color11": "#554949",
+        "color12": "#6C434D",
+        "color13": "#706664",
+        "color14": "#966770",
+        "color15": "#cfb1b9"
+    }
+}

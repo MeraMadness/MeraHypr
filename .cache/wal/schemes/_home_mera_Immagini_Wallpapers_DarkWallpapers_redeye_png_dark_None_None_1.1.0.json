@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/redeye.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0909",
+        "foreground": "#ebdcd1",
+        "cursor": "#ebdcd1"
+    },
+    "colors": {
+        "color0": "#0c0909",
+        "color1": "#A1827F",
+        "color2": "#9D8A90",
+        "color3": "#B09491",
+        "color4": "#C8A79A",
+        "color5": "#D4A797",
+        "color6": "#D8B7A4",
+        "color7": "#ebdcd1",
+        "color8": "#a49a92",
+        "color9": "#A1827F",
+        "color10": "#9D8A90",
+        "color11": "#B09491",
+        "color12": "#C8A79A",
+        "color13": "#D4A797",
+        "color14": "#D8B7A4",
+        "color15": "#ebdcd1"
+    }
+}

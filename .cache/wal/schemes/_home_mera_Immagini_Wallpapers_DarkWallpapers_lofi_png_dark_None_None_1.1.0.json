@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/lofi.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0918",
+        "foreground": "#bbb2e3",
+        "cursor": "#bbb2e3"
+    },
+    "colors": {
+        "color0": "#0b0918",
+        "color1": "#3C416E",
+        "color2": "#4F4779",
+        "color3": "#46378B",
+        "color4": "#473A99",
+        "color5": "#52488D",
+        "color6": "#6A5EA0",
+        "color7": "#bbb2e3",
+        "color8": "#827c9e",
+        "color9": "#3C416E",
+        "color10": "#4F4779",
+        "color11": "#46378B",
+        "color12": "#473A99",
+        "color13": "#52488D",
+        "color14": "#6A5EA0",
+        "color15": "#bbb2e3"
+    }
+}

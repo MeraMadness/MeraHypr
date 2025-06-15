@@ -30,11 +30,11 @@
   "script-fail-notify": true,
   "scripts": {
     "example-script": {
-      "exec": "echo 'Do something...'",
+      "exec": "echo 'Do something...'  ",
       "urgency": "Normal"
     },
     "example-action-script": {
-      "exec": "echo 'Do something actionable!'",
+      "exec": "echo 'Do something actionable!'  ",
       "urgency": "Normal",
       "run-on": "action"
     }
@@ -50,7 +50,8 @@
     "inhibitors",
     "title",
     "dnd",
-    "notifications"
+    "notifications",
+    "mpris"    
   ],
   "widget-config": {
     "inhibitors": {
@@ -66,13 +67,17 @@
     "dnd": {
       "text": "Do Not Disturb"
     },
-    "label": {
-      "max-lines": 5,
-      "text": "Label Text"
-    },
+    "notifications": {},
     "mpris": {
       "image-size": 96,
-      "image-radius": 12
+      "image-radius": 12,
+      "controls": [
+        "previous",
+        "play-pause",
+        "next"
+      ],
+      "show-progress": true
     }
   }
 }
+

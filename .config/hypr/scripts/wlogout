@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Show debug info for troubleshooting
+#set -x
+
+LAYOUT="$HOME/.config/wlogout/layout"
+STYLE="$HOME/.config/wlogout/style.css"
+
+# Ensure wlogout is not already running
+if ! pgrep -x wlogout > /dev/null; then
+	wlogout --layout "$LAYOUT" --css "$STYLE" \
+		--buttons-per-row 5 \
+		--column-spacing 10 \
+		--row-spacing 10 \
+		--margin-top 390 \
+		--margin-bottom 390 \
+		--margin-left 150 \
+		--margin-right 150
+else
+	pkill wlogout
+fi

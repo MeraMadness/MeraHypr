@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mera/Immagini/Wallpapers/DarkWallpapers/ultrawide_02.png",
+    "alpha": "100",
+    "special": {
+        "background": "#030303",
+        "foreground": "#e6e6e6",
+        "cursor": "#e6e6e6"
+    },
+    "colors": {
+        "color0": "#030303",
+        "color1": "#81817E",
+        "color2": "#909090",
+        "color3": "#A0A09F",
+        "color4": "#ABABAB",
+        "color5": "#C0C0BF",
+        "color6": "#CDCDCD",
+        "color7": "#e6e6e6",
+        "color8": "#a1a1a1",
+        "color9": "#81817E",
+        "color10": "#909090",
+        "color11": "#A0A09F",
+        "color12": "#ABABAB",
+        "color13": "#C0C0BF",
+        "color14": "#CDCDCD",
+        "color15": "#e6e6e6"
+    }
+}
