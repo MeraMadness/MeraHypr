@@ -44,8 +44,6 @@ Visual Studio Code Theme I use.
 <img align="center" src="/img/layout3.png">
 <img align="center" src="/img/layout2.png">
 
-https://github.com/MeraMadness/MeraHypr/assets/137096624/5ba13992-871b-4760-8e82-0db967f0259f
-
 ### Install Steps (Not a Tutorial)
 
 <details>
