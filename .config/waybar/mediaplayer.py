@@ -18,7 +18,7 @@ def write_output(text, player):
     if player.props.player_name == 'spotify':
         icon = ' '  # Spotify icon
     else:
-        icon = ' '  # Default music icon
+        icon = ' '  # Default music icon
 
     # Prepend the icon to the text
     text = f"{icon} {text}" if text else f"{icon} No Track Playing"

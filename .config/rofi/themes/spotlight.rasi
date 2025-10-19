@@ -1,16 +1,17 @@
-/* MACOS SPOTLIGHT LIKE THEME FOR ROFI  */
-/* Author: Newman Sanchez (https://github.com/newmanls) */
+/* MACOS SPOTLIGHT LIKE THEME FOR ROFI - Catppuccin Mocha Mauve */
+/* Author: Newman Sanchez (https://github.com/newmanls) - Colori aggiornati da Gemini */
 
 * {
-    font:   "Montserrat 12";
+    font:       "Montserrat 12";
 
-    bg0:     #F5F5F5BF;
-    bg1:     #7E7E7E80;
-    bg2:     #0860F2E6;
+    
+    bg0:        #0C0B14; 
+    bg1:        #313244; 
+    bg2:        #45475a; 
 
-    fg0:     #242424;
-    fg1:     #FFFFFF;
-    fg2:     #24242480;
+    fg0:        #DFD7DF; 
+    fg1:        #DFD7DF; 
+    fg2:        #DFD7DF; 
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -23,21 +24,21 @@
 window {
     background-color:   @bg0;
 
-    location:       center;
-    width:          640;
-    border-radius:  8;
+    location:         center;
+    width:            640;
+    border-radius:    8;
 }
 
 inputbar {
-    font:       "Montserrat 20";
-    padding:    12px;
-    spacing:    12px;
-    children:   [ icon-search, entry ];
+    font:         "Montserrat 20";
+    padding:      12px;
+    spacing:      12px;
+    children:     [ icon-search, entry ];
 }
 
 icon-search {
-    expand:     false;
-    filename:   "search";
+    expand:       false;
+    filename:     "search";
     size: 28px;
 }
 
@@ -46,16 +47,16 @@ icon-search, entry, element-icon, element-text {
 }
 
 entry {
-    font:   inherit;
+    font:       inherit;
 
-    placeholder         : "Search";
-    placeholder-color   : @fg2;
+    placeholder           : "Search";
+    placeholder-color     : @fg2;
 }
 
 message {
-    border:             2px 0 0;
-    border-color:       @bg1;
-    background-color:   @bg1;
+    border:               2px 0 0;
+    border-color:         @bg1;
+    background-color:     @bg1;
 }
 
 textbox {
@@ -72,9 +73,9 @@ listview {
 }
 
 element {
-    padding:            8px 16px;
-    spacing:            16px;
-    background-color:   transparent;
+    padding:              8px 16px;
+    spacing:              16px;
+    background-color:     transparent;
 }
 
 element normal active {
@@ -86,8 +87,8 @@ element alternate active {
 }
 
 element selected normal, element selected active {
-    background-color:   @bg2;
-    text-color:         @fg1;
+    background-color:     @bg2;
+    text-color:           @fg1;
 }
 
 element-icon {

@@ -1,6 +1,6 @@
 # MeraHypr - My Simple Hyprland Config with Dark/Light switching.
 
-I'm using this on Arch Linux but it will work on every distro, if you install every dependencies.
+I'm using this on Arch Linux / CachyOS but it will work on every distro, if you install every dependencies.
 
 You can use Paru or Yay, it doesn't matter.
 
@@ -11,8 +11,8 @@ You can use Paru or Yay, it doesn't matter.
 - **Notify Daemon** • [SwayNC](https://github.com/ErikReider/SwayNotificationCenter)
 - **Lock** • [Hyprlock](https://wiki.hypr.land/Hypr-Ecosystem/hyprlock)
 - **Idle** • [Hypridle](https://github.com/hyprwm/hypridle)
-- **Apps Launcher** • [Rofi](https://github.com/lbonn/rofi)
-- **Wallpaper Selector** • [SWWW](https://github.com/LGFae/swww)
+- **Apps Launcher and about everything** • [Rofi](https://github.com/lbonn/rofi)
+- **Wallpaper Selector + ROFI** • [SWWW](https://github.com/LGFae/swww)
 - **File Manager** • [Thunar](https://wiki.archlinux.org/title/Thunar)
 - **Login Manager** • [SDDM](https://wiki.archlinux.org/title/SDDM)
 - **LoginCTL** • [Wlogout](https://github.com/ArtsyMacaw/wlogout)
@@ -26,6 +26,7 @@ You can use Paru or Yay, it doesn't matter.
 GTK Themes I recommend.
 
 - **Materia** • [Materia-GTK](https://github.com/nana-4/materia-theme)
+- **Catppuccin Mocha Mauve** • [Catppuccin](https://github.com/catppuccin/catppuccin)
 - **Orchis** • [Orchis-Theme](https://github.com/vinceliuice/Orchis-theme)
 
 Icon Packs I recommend.
@@ -40,6 +41,7 @@ Visual Studio Code Theme I use.
 ## ⛧ Images
 
 <img align="center" src="/img/layout1.png">
+<img align="center" src="/img/layout3.png">
 <img align="center" src="/img/layout2.png">
 
 https://github.com/MeraMadness/MeraHypr/assets/137096624/5ba13992-871b-4760-8e82-0db967f0259f
@@ -65,15 +67,24 @@ https://github.com/MeraMadness/MeraHypr/assets/137096624/5ba13992-871b-4760-8e82
 
 ```sh
 ### Hyprland + Other Stuff
-paru -S hyprland waybar swaync nwg-look-bin wlogout kitty hypridle hyprlock ### Basic Stuff to get Hyprland working.
+paru -S hyprland waybar swaync nwg-look wlogout kitty hypridle hyprlock wlogout rofi ### Basic Stuff to get Hyprland working.
 ```
 
 ```sh
-### Hyprland - Hyprspace
+### Hyprland - Hyprspace [Currently it doesn't work with the newer Hyprland]
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm add https://github.com/KZDKM/Hyprspace
 hyprpm enable Hyprspace
+hyprpm enable hyprbars
+hyprpm enable hyprtrails [a bit stupid but I like it]
+```
+
+```sh
+### Pyprland - More Plugins for Hyprland
+https://github.com/hyprland-community/pyprland
+
+I use Scratchpads and Magnify but I still need to understand how it works, so I'm not going to explain it.
 ```
 
 </details>
@@ -95,13 +106,14 @@ python python-pipx
 
 ```sh
 ## CLI & Tools
-paru -S btop cava fastfetch rofi-wayland zsh ocs-url nvim
+paru -S btop cava fastfetch zsh ocs-url nvim
 ```
 
 ```sh
 ## Browser & File Explorer
 paru -S firefox file-roller noto-fonts noto-fonts-cjk  \
-noto-fonts-emoji thunar thunar-archive-plugin
+noto-fonts-emoji thunar thunar-archive-plugin tumbler ffmpeg-thumbnailer \
+udisks2
 ```
 
 ```sh
@@ -142,6 +154,12 @@ cp -r .cache/* $HOME/.cache
 **CTRL + Super + W** - You can Select the Wallpaper.
 
 **Super + Shift + W** - it will choose it randomly.
+
+## Using Rofi for changing Waybar Style
+**SHIFT + CTRL + Tab** - You can choose for vertical or horizontal bar
+
+## Using Rofi as File Searching
+**SUPER + C** - You can search everything on the system.
 
 ## Credits
 

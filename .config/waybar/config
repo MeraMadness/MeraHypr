@@ -1,133 +1,318 @@
-{
-  "layer": "top",
-  "position": "bottom",
-  "spacing": 0,
-  "mode": "dock",
-  "reload_style_on_change": true,
-  "height": 42,
-  "margin-right": 15,
-  "margin-left": 15,
-  "margin-bottom": 10,
+ {
 
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["custom/media"],
-  "modules-right": ["pulseaudio", "tray", "network", "clock", "custom/pacman"],
+    "layer": "top",
 
-  "tray": {
-    "spacing": 12
-  },
+    "position": "left",
 
-  "hyprland/workspaces": {
-    "disable-scroll": false,
-    "all-outputs": true,
-    "format": "{icon}",
-    "format-icons": {
-      "1": " ", "2": " ", "3": " ", "4": " ", "5": " ",
-      "6": " ", "7": " ", "8": " ", "9": " ", "10": " ",
-      "urgent": " ", "focused": " ", "default": " "
+    "mode": "dock",
+
+    "reload-style-on-change": true,
+
+    "gtk-layer-shell": true,
+
+    "width": 56,
+
+    "autohide": true,
+
+    "autohide-blocked": false,
+
+    "orientation": "vertical",
+
+
+    "modules-left": [
+
+        "custom/menu",
+
+        "hyprland/workspaces"
+
+    ],
+
+    "modules-center": [
+
+        "custom/media"
+
+    ],
+
+    "modules-right": [
+
+        "group/tray",
+
+        "custom/pacman",
+
+        "clock",
+
+        "custom/date",
+
+        "network"
+
+    ],
+
+    "group/tray": {
+
+        "orientation": "vertical",
+
+        "modules": [
+
+            "custom/arrow",
+
+            "pulseaudio",
+
+            "pulseaudio#mic",
+
+            "bluetooth",
+
+            "tray"
+
+        ],
+
+        "spacing": 12,
+
+        "drawer": {
+
+            "transition-duration": 500,
+
+            "transition-left-to-right": true,
+
+            "click-to-reveal": true
+
+        }
+
+    },
+
+    "hyprland/workspaces": {
+
+        "disable-scroll": false,
+
+        "all-outputs": true,
+
+        "format": "{icon}",
+
+        "format-icons": {
+
+            "1": " ",
+
+            "2": " ",
+
+            "3": " ",
+
+            "4": " ",
+
+            "5": " ",
+
+            "6": " ",
+
+            "7": " ",
+
+            "8": " ",
+
+            "9": " ",
+
+            "10": " ",
+
+            "urgent": " ",
+
+            "focused": " ",
+
+            "default": " "
+
+        }
+
+    },
+
+    "hyprland/mode": {
+
+        "format": ""
+
+    },
+
+    "hyprland/language": {
+
+        "format": ""
+
+    },
+
+    "custom/menu": {
+
+        "format": " ",
+
+        "tooltip": false,
+
+        "on-click": "rofi -modi drun -show drun -show-icons"
+
+    },
+
+    "custom/arrow": {
+
+        "format": "",
+
+        "tooltip": false
+
+    },
+
+    "custom/media": {
+
+        "return-type": "json",
+
+        "max-length": 50,
+
+        "format": "{icon}",
+
+        "format-icons": {
+
+            "spotify": "",
+
+            "default": ""
+
+        },
+
+        "tooltip-format": "{text} ",
+
+        "escape": true,
+
+        "exec": "/home/mera/.config/waybar/mediaplayer.py 2> /dev/null",
+
+        "on-click": "playerctl play-pause"
+
+    },
+
+    "custom/pacman": {
+
+        "format": "",
+
+        "return-type": "json",
+
+        "format-icons": {
+
+            "pending-updates": "",
+
+            "updated": " "
+
+        },
+
+        "tooltip-format": "Aggiornamenti: {0}",
+
+        "exec-if": "which waybar-updates",
+
+        "exec": "waybar-updates"
+
+    },
+
+    "clock": {
+
+        "format": " {:%H:%M} ",
+
+        "tooltip-format": "{:%A, %B %d, %Y - %H:%M:%S}"
+
+    },
+
+    "custom/date": {
+
+        "format": " {} ",
+
+        "exec": "/bin/date +%d/%m/%Y",
+
+        "interval": 60,
+
+        "tooltip": false
+
+    },
+
+    "network": {
+
+        "format-wifi": "",
+
+        "format-ethernet": "",
+
+        "format-linked": "",
+
+        "format-disconnected": "",
+
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+
+    },
+
+    "pulseaudio": {
+
+        "format": "{icon}",
+
+        "format-bluetooth": "{icon}",
+
+        "format-bluetooth-muted": "",
+
+        "format-muted": "",
+
+        "format-icons": {
+
+            "headphone": "",
+
+            "hands-free": "",
+
+            "headset": "",
+
+            "phone": "",
+
+            "portable": "",
+
+            "car": "",
+
+            "default": ["", "", ""]
+
+        },
+
+        "tooltip-format": "{desc}, {volume}%",
+
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+
+        "on-click-middle": "pavucontrol"
+
+    },
+
+    "pulseaudio#mic": {
+
+        "source": true,
+
+        "format": "{format_source}",
+
+        "format-source": "  ",
+
+        "format-source-muted": "  ",
+
+        "tooltip-format": "Microfono: {desc}, {volume}%",
+
+        "on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+
+        "on-click-right": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
+
+        "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
+
+        "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -5%"
+
+    },
+
+    "bluetooth": {
+
+        "format-on": "󰂯",
+
+        "format-off": "󰂲",
+
+        "format-disabled": " ",
+
+        "format-connected": "󰂱",
+
+        "tooltip-format-connected": "{device_enumerate}",
+
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+
+        "on-click": "overskride"
+
+    },
+
+    "tray": {
+
+        "icon-size": 30,
+
+        "spacing": 10
+
     }
-  },
 
-  "hyprland/mode": {
-    "format": "<span style=\"italic\">{}</span>"
-  },
-
-  "hyprland/language": {
-    "format": "{short} ⠀⠀"
-  },
-
-  "clock": {
-    "format": "{:%H:%M}  ",
-    "format-alt": "{:%A, %B %d, %Y}  ",
-  },
-
-  "cpu": {
-    "format": "{usage}%  ",
-    "tooltip": false
-  },
-
-  "memory": {
-    "format": "{}%  "
-  },
-
-  "temperature": {
-    "critical-threshold": 80,
-    "format": "{temperatureC}°C {icon}",
-    "format-icons": [" ", " ", " "]
-  },
-
-  "backlight": {
-    "format": "{icon} {percent}%",
-    "format-icons": [" ", " "],
-    "on-scroll-up": "light -A 1",
-    "on-scroll-down": "light -U 1"
-  },
-
-  "battery": {
-    "states": {
-      "warning": 30,
-      "critical": 15
-    },
-    "format": "{icon} {capacity}%",
-    "tooltip-format": "{timeTo}, {capacity}%",
-    "format-charging": " {capacity}%",
-    "format-plugged": " ",
-    "format-alt": "{time} {icon}",
-    "format-icons": ["", "", "", "", ""]
-  },
-
-  "network": {
-    "format-wifi": " ",
-    "format-ethernet": " ",
-    "format-linked": "{ifname} (No IP)  ",
-    "format-disconnected": " ",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
-    "tooltip-format": "{essid} {signalStrength}%"
-  },
-
-  "pulseaudio": {
-    "format": "{icon} {volume}% {format_source}",
-    "format-bluetooth": "{icon} {volume}% {format_source}",
-    "format-bluetooth-muted": "   {volume}% {format_source}",
-    "format-muted": "  {format_source}",
-    "format-source": " ",
-    "format-source-muted": " ",
-    "format-icons": {
-      "headphone": " ",
-      "hands-free": " ",
-      "headset": " ",
-      "phone": " ",
-      "portable": " ",
-      "car": " ",
-      "default": [" ", " ", " "]
-    },
-    "tooltip-format": "{desc}, {volume}%",
-    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
-    "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
-    "on-click-middle": "pavucontrol"
-  },
-
-  "custom/media": {
-    "return-type": "json",
-    "max-length": 150,
-    "format-icons": {
-      "spotify": " ",
-      "default": " "
-    },
-    "escape": true,
-    "exec": "/home/mera/.config/waybar/mediaplayer.py 2> /dev/null",
-    "on-click": "playerctl play-pause"
-  },
-
-  "custom/pacman": {
-  "format": "{icon}{0}",
-  "return-type": "json",
-  "format-icons": {
-    "pending-updates": " ",
-    "updated": ""
-  },
-  "exec-if": "which waybar-updates",
-  "exec": "waybar-updates"
-}
-}
-
+} 

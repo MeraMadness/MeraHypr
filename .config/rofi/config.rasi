@@ -33,7 +33,8 @@ configuration {
 
 /* ---- Window ---- */
 window {
-    width:                        900px;
+    width:                        1024px;
+    height:			  768px;
     x-offset:                     0px;
     y-offset:                     0px;
     spacing:                      0px;
@@ -48,7 +49,7 @@ window {
     anchor:                       center;
     fullscreen:                   false;
     enabled:                      true;
-    border-radius:                10px;
+    border-radius:                32px;
     background-color:             transparent;
 }
 
