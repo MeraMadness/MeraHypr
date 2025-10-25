@@ -2,7 +2,6 @@
 @import "~/.cache/wal/colors-rofi-pywal.rasi"
 
 * {
-    /* Font settings */
     font: "Montserrat 12";
 
     bg0: @color0; /* Main window background */
@@ -72,29 +71,37 @@ listview {
     fixed-height: false;
     border: 1px 0 0;
     border-color: @bg1;
+    
+    margin: 0; 
+    padding: 0;
 }
 
 element {
-    padding: 8px 16px;
-    spacing: 16px;
+    padding: 8px 12px;
+    
+    spacing: 0px; 
     background-color: transparent;
+    
+    children: [ element-text ];
 }
 
 element normal active {
-    text-color: @bg2; /* Text color when list item is inactive but its type is 'active' */
+    text-color: @bg2; 
 }
 
 element alternate active {
-    text-color: @bg2; /* Text color when list item is alternate and active */
+    text-color: @bg2;
 }
 
 element selected normal, element selected active {
     background-color: @bg2;
-    text-color: black;
+    text-color: @fg1;
 }
 
 element-icon {
-    size: 1em;
+    size: 0;
+    margin: 0;
+    padding: 0;
 }
 
 element-text {

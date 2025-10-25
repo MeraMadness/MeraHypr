@@ -1,17 +1,16 @@
-{
+[
+  {
+    "output": "DP-1", 
+    
     "layer": "top",
-    "position": "bottom",
-    "spacing": 0,
+    "position": "left",
     "mode": "dock",
-    "reload_style_on_change": true,
-    "height": 42,
+    "reload-style-on-change": true,
     "gtk-layer-shell": true,
+    "width": 40, 
     "autohide": true,
     "autohide-blocked": false,
-    "margin-bottom": 10,
-    "margin-right": 35,
-    "margin-left": 35,
-    "orientation": "horizontal",
+    "orientation": "vertical",
 
     "modules-left": [
         "custom/menu",
@@ -22,14 +21,14 @@
     ],
     "modules-right": [
         "group/tray",
-        "network",
+        "custom/pacman",
         "clock",
-	"custom/date",
-        "custom/pacman"
+        "custom/date",
+        "network"
     ],
 
     "group/tray": {
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "modules": [
             "custom/arrow",
             "pulseaudio",
@@ -40,11 +39,10 @@
         "spacing": 12,
         "drawer": {
             "transition-duration": 500,
-            "transition-left-to-right": false,
+            "transition-left-to-right": true,
             "click-to-reveal": true
         }
     },
-
     "hyprland/workspaces": {
         "disable-scroll": false,
         "all-outputs": true,
@@ -65,29 +63,25 @@
             "default": " "
         }
     },
-
     "hyprland/mode": {
         "format": ""
     },
     "hyprland/language": {
         "format": ""
     },
-
     "custom/menu": {
-        "format": "   ",
+        "format": " ",
         "tooltip": false,
-        "on-click": "rofi -modi drun -show drun -show-icons"
+        "on-click": "~/.config/hypr/scripts/rofi-main-menu.sh"
     },
-
     "custom/arrow": {
-        "format": " --",
+        "format": "",
         "tooltip": false
     },
-
     "custom/media": {
         "return-type": "json",
         "max-length": 50,
-        "format": "{text}",
+        "format": "{icon}",
         "format-icons": {
             "spotify": "",
             "default": ""
@@ -97,7 +91,6 @@
         "exec": "/home/mera/.config/waybar/mediaplayer.py 2> /dev/null",
         "on-click": "playerctl play-pause"
     },
-
     "custom/pacman": {
         "format": "",
         "return-type": "json",
@@ -109,19 +102,16 @@
         "exec-if": "which waybar-updates",
         "exec": "waybar-updates"
     },
-
     "clock": {
-        "format": " {:%H:%M}",
+        "format": " {:%H:%M} ",
         "tooltip-format": "{:%A, %B %d, %Y - %H:%M:%S}"
     },
-    
     "custom/date": {
-        "format": "{}",
+        "format": " {} ",
         "exec": "/bin/date +%d/%m/%Y",
         "interval": 60,
         "tooltip": false
     },
-
     "network": {
         "format-wifi": "",
         "format-ethernet": "",
@@ -129,7 +119,6 @@
         "format-disconnected": "",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
     },
-
     "pulseaudio": {
         "format": "{icon}",
         "format-bluetooth": "{icon}",
@@ -148,7 +137,6 @@
         "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
         "on-click-middle": "pavucontrol"
     },
-
     "pulseaudio#mic": {
         "source": true,
         "format": "{format_source}",
@@ -160,19 +148,182 @@
         "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
         "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -5%"
     },
-
     "bluetooth": {
-        "format-on": "󰂯 ",
-        "format-off": "󰂲 ",
+        "format-on": "󰂯",
+        "format-off": "󰂲",
         "format-disabled": " ",
-        "format-connected": "󰂱 {num_connections} ",
+        "format-connected": "󰂱",
         "tooltip-format-connected": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "on-click": "overskride"
     },
-
     "tray": {
         "icon-size": 30,
         "spacing": 10
     }
-}
+  },
+
+  {
+    "output": "DP-2", 
+    
+    "layer": "top",
+    "position": "left",
+    "mode": "dock",
+    "reload-style-on-change": true,
+    "gtk-layer-shell": true,
+    "width": 40, //
+    "autohide": true,
+    "autohide-blocked": false,
+    "orientation": "vertical",
+
+    "modules-left": [
+        "custom/menu",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "custom/media"
+    ],
+    "modules-right": [
+        "group/tray",
+        "custom/pacman",
+        "clock",
+        "custom/date",
+        "network"
+    ],
+
+    "group/tray": {
+        "orientation": "vertical",
+        "modules": [
+            "custom/arrow",
+            "pulseaudio",
+            "pulseaudio#mic",
+            "bluetooth",
+            "tray"
+        ],
+        "spacing": 12,
+        "drawer": {
+            "transition-duration": 500,
+            "transition-left-to-right": true,
+            "click-to-reveal": true
+        }
+    },
+    "hyprland/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": " ",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " ",
+            "6": " ",
+            "7": " ",
+            "8": " ",
+            "9": " ",
+            "10": " ",
+            "urgent": " ",
+            "focused": " ",
+            "default": " "
+        }
+    },
+    "hyprland/mode": {
+        "format": ""
+    },
+    "hyprland/language": {
+        "format": ""
+    },
+    "custom/menu": {
+        "format": " ",
+        "tooltip": false,
+        "on-click": "~/.config/hypr/scripts/rofi-main-menu.sh"
+    },
+    "custom/arrow": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/media": {
+        "return-type": "json",
+        "max-length": 50,
+        "format": "{icon}",
+        "format-icons": {
+            "spotify": "",
+            "default": ""
+        },
+        "tooltip-format": "{text} ",
+        "escape": true,
+        "exec": "/home/mera/.config/waybar/mediaplayer.py 2> /dev/null",
+        "on-click": "playerctl play-pause"
+    },
+    "custom/pacman": {
+        "format": "",
+        "return-type": "json",
+        "format-icons": {
+            "pending-updates": "",
+            "updated": " "
+        },
+        "tooltip-format": "Aggiornamenti: {0}",
+        "exec-if": "which waybar-updates",
+        "exec": "waybar-updates"
+    },
+    "clock": {
+        "format": " {:%H:%M} ",
+        "tooltip-format": "{:%A, %B %d, %Y - %H:%M:%S}"
+    },
+    "custom/date": {
+        "format": " {} ",
+        "exec": "/bin/date +%d/%m/%Y",
+        "interval": 60,
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "",
+        "format-linked": "",
+        "format-disconnected": "",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-bluetooth": "{icon}",
+        "format-bluetooth-muted": "",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "tooltip-format": "{desc}, {volume}%",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-middle": "pavucontrol"
+    },
+    "pulseaudio#mic": {
+        "source": true,
+        "format": "{format_source}",
+        "format-source": "  ",
+        "format-source-muted": "  ",
+        "tooltip-format": "Microfono: {desc}, {volume}%",
+        "on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+        "on-click-right": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
+        "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +5%",
+        "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -5%"
+    },
+    "bluetooth": {
+        "format-on": "󰂯",
+        "format-off": "󰂲",
+        "format-disabled": " ",
+        "format-connected": "󰂱",
+        "tooltip-format-connected": "{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "overskride"
+    },
+    "tray": {
+        "icon-size": 30,
+        "spacing": 10
+    }
+  }
+]

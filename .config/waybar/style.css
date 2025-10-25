@@ -3,7 +3,7 @@
 * {
     border-radius: 0px;
     font-family: Terminus Nerd Font, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 window#waybar {
@@ -25,68 +25,71 @@ window#waybar.hidden {
 #cpu,
 #memory,
 #temperature,
-#custom-media,
 #clock,
 #idle_inhibitor,
 #language,
 #backlight,
 #battery,
 #network,
-#custom-menu,
-#custom-pacman {
+#custom-pacman,
+#custom-date {
     background-color: @background;
-    padding: 8px 0px;
-    margin: 3px 0px;
+    padding: 0px 8px;
+    margin: 3px 2px;
     border: none;
     background-clip: padding-box;
     border-radius: 0px;
+}
+
+#custom-menu,
+#custom-media {
+    border-radius: 8px;
 }
 
 #pulseaudio,
 #pulseaudio-mic,
 #bluetooth {
     background-color: @background;
-    padding: 8px 0px;
-    margin: 3px 0px;
+    padding: 0px 5px;
+    margin: 3px 2px;
 }
 
 #tray {
     background-color: @background;
     color: @foreground;
     font-size: 18px;
-    margin: 3px 0px 5px 0px;
+    margin: 3px 2px;
     border: 1px solid @color3;
     border-radius: 0px;
     background-clip: padding-box;
-    padding: 5px 5px;
+    padding: 0px 5px;
 }
 
 #workspaces {
     background-color: @background;
     color: @foreground;
-    border-radius: 0px;
+    border-radius: 8px;
     padding: 0px 0px;
-    margin: 5px 0px;
+    margin: 3px 2px;
     border: 1px solid @color3;
 }
 #workspaces button {
     background-color: transparent;
     color: @foreground;
-    margin: 2px 0px;
-    padding: 8px 0px;
+    margin: 0px 2px;
+    padding: 0px 8px;
     border-radius: 0px;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 #custom-menu {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 10px 0px;
+    margin: 3px 2px;
+    padding: 0px 10px;
     border: 1px solid @color3;
 }
 
 #custom-media {
-    padding: 8px 0px;
+    padding: 0px 8px;
     border: 1px solid @color3;
 }
 
@@ -94,8 +97,8 @@ window#waybar.hidden {
 #workspaces button:hover {
     background-color: @color3;
     color: @background;
-    border-left: 3px solid @color3;
-    border-right: 3px solid @color3;
+    border-bottom: 3px solid @color3;
+    border-top: 3px solid @color3;
 }
 #custom-menu button.focused,
 #workspaces button.focused {
@@ -119,22 +122,22 @@ window#waybar.hidden {
 #bluetooth {
     background-color: @background;
     color: @foreground;
-    font-size: 22px;
-    padding: 5px 0px;
+    font-size: 18px;
+    padding: 0px 5px;
 }
 #clock {
     color: @foreground;
     background-color: @background;
     border: none;
-    font-size: 24px;
-    padding: 0;
+    font-size: 20px;
+    padding: 0px 8px;
 }
 #custom-date {
     color: @foreground;
     background-color: @background;
     border: none;
-    font-size: 14px;
-    padding: 0;
+    font-size: 20px;
+    padding: 0px 8px;
 }
 
 #temperature.critical,
@@ -176,8 +179,8 @@ window#waybar.hidden {
 #custom-menu:hover,
 #custom-media:hover {
     background-color: @color4;
-    border-left: 3px solid @color4;
-    border-right: 3px solid @color4;
+    border-bottom: 3px solid @color4;
+    border-top: 3px solid @color4;
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 #workspaces:hover {
@@ -194,7 +197,7 @@ window#waybar.hidden {
 #custom-arrow {
     color: @foreground;
     background-color: @background;
-    padding: 8px 0px;
+    padding: 0px 8px;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 #custom-arrow:hover {
@@ -225,8 +228,8 @@ window#waybar.hidden {
 }
 #custom-pacman {
     background-color: @background;
-    padding: 8px 0px;
-    margin: 3px 0px 5px 0px;
+    padding: 0px 8px;
+    margin: 3px 2px;
     border: none;
     border-radius: 0px;
     background-clip: border-box;
@@ -237,6 +240,6 @@ window#waybar.hidden {
 #custom-pacman.pending-updates {
     animation-name: blink-update;
     animation-duration: 3s;
-    border-left: 3px solid @color5;
-    border-right: 3px solid @color5;
+    border-bottom: 3px solid @color5;
+    border-top: 3px solid @color5;
 }

@@ -13,8 +13,8 @@ fi
 CHOICE=$("$ROFI_BIN" -dmenu -i -p "Seleziona Waybar Config" \
     -theme ~/.config/rofi/themes/spotlight.rasi <<< $'Verticale (Lato)\nOrizzontale (Sotto)') || CHOICE=""
 case "$CHOICE" in
-  "Verticale (Lato)") TARGET_CONFIG="config"; TARGET_STYLE="style.css" ;;
-  "Orizzontale (Sotto)") TARGET_CONFIG="config-hor"; TARGET_STYLE="style-hor.css" ;;
+  "Orizzontale (Sotto)") TARGET_CONFIG="config"; TARGET_STYLE="style.css" ;;
+  "Verticale (Lato)") TARGET_CONFIG="config-hor"; TARGET_STYLE="style-hor.css" ;;
   *) exit 0 ;;
 esac
 if [[ ! -f "$WAYBAR_DIR/$TARGET_CONFIG" || ! -f "$WAYBAR_DIR/$TARGET_STYLE" ]]; then
