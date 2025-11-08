@@ -1,4 +1,4 @@
-# MeraHypr - My Simple Hyprland Config with Dark/Light switching.
+# MeraHypr - My Simple Hyprland Config using Pywal/Matugen for Everything.
 
 I'm using this on Arch Linux / CachyOS but it will work on every distro, if you install every dependencies.
 
@@ -18,30 +18,31 @@ You can use Paru or Yay, it doesn't matter.
 - **LoginCTL** • [Wlogout](https://github.com/ArtsyMacaw/wlogout)
 - **Wayland Clipboard** • [cliphist](https://github.com/sentriz/cliphist)
 - **Wayland Clipboard-Manager** • [nwg-clipman](https://github.com/nwg-piotr/nwg-clipman)
-  **Screenshot Utility** • [grim](https://github.com/emersion/grim) - [slurp](https://github.com/emersion/slurp)
+- **Screenshot Utility** • [grim](https://github.com/emersion/grim) - [slurp](https://github.com/emersion/slurp)
 - **Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Color Scheme Generator with Pywal** • [Pywal](https://github.com/dylanaraps/pywal)
+- **Color Scheme Generator with Matugen** • [Matugen](https://github.com/InioX/matugen)
 - **Firefox Theme with Pywal** • [Pywalfox](https://github.com/Frewacom/pywalfox)
 
-GTK Themes I recommend.
+GTK Themes I recommend, and works great with Matugen.
 
 - **Materia** • [Materia-GTK](https://github.com/nana-4/materia-theme)
 - **Catppuccin Mocha Mauve** • [Catppuccin](https://github.com/catppuccin/catppuccin)
 - **Orchis** • [Orchis-Theme](https://github.com/vinceliuice/Orchis-theme)
+- **Adw-GTK3** • [Adw-GTK3](https://github.com/lassekongo83/adw-gtk3)
 
-Icon Packs I recommend.
+Icon Packs I recommend, but you can use whatever you like.
 
 - **Tela Circle** • [Tela](https://github.com/vinceliuice/Tela-circle-icon-theme)
 - **Papirus** • [Papirus-Icon-Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
-Visual Studio Code Theme I use.
+Visual Studio Code Theme I use, yes that's all.
 
 - **Wal Theme Generator** • [Wal](https://marketplace.visualstudio.com/items?itemName=dlasagno.wal-theme)
 
 ## ⛧ Images
 
 <img align="center" src="/img/layout1.png">
-<img align="center" src="/img/layout3.png">
 <img align="center" src="/img/layout2.png">
 
 ### Install Steps (Not a Tutorial)
@@ -66,10 +67,10 @@ Visual Studio Code Theme I use.
 ```sh
 ### Hyprland + Other Stuff
 paru -S hyprland waybar swaync nwg-look wlogout kitty hypridle hyprlock wlogout rofi ### Basic Stuff to get Hyprland working.
-```
+```:
 
 ```sh
-### Hyprland - Hyprspace [Currently it doesn't work with the newer Hyprland]
+### Hyprland - Hyprspace 
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm add https://github.com/KZDKM/Hyprspace
@@ -82,7 +83,7 @@ hyprpm enable hyprtrails [a bit stupid but I like it]
 ### Pyprland - More Plugins for Hyprland
 https://github.com/hyprland-community/pyprland
 
-I use Scratchpads and Magnify but I still need to understand how it works, so I'm not going to explain it.
+I use it for Magnify 
 ```
 
 </details>
@@ -121,7 +122,7 @@ paru -S visual-studio-code-bin
 
 ```sh
 # Theme Based
-paru -S materia-gtk-theme python-pywal sddm 
+paru -S materia-gtk-theme python-pywal sddm adw-gtk-theme-git matugen-bin
 ```
 
 ```sh
@@ -154,10 +155,10 @@ cp -r .cache/* $HOME/.cache
 **Super + Shift + W** - it will choose it randomly.
 
 ## Using Rofi for changing Waybar Style
-**SHIFT + CTRL + Tab** - You can choose for vertical or horizontal bar
+**ALT + TAB** - You can choose for vertical or horizontal bar
 
-## Using Rofi as File Searching
-**SUPER + C** - You can search everything on the system.
+## Using Rofi as System Menu
+**SUPER + X** - You can search control basically everything from here.
 
 ## Credits
 
