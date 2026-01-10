@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GTK_THEME="adw-gtk3-dark" 
-ICON_THEME="Tela-circle-purple-dark"
+ICON_THEME="Gruvbox-Plus-Dark"
 
 DARK_DIR=~/Pictures/Wallpapers/DarkWallpapers
 ALL_DIR="$DARK_DIR" 

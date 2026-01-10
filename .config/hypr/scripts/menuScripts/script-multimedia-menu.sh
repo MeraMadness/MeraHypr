@@ -30,7 +30,7 @@ execute_and_return() {
 # MENU PRINCIPALE MULTIMEDIA
 # ***************************************************************
 
-CHOICE=$(printf "↩️ Back\n▶️ FFmpeg: Convert to YT/WA (MP4)\n🎮 FFmpeg: Convert for Discord (WebM)\n🎧 FFmpeg: Extract All Audio Tracks\n⬇️ yt-dlp: Download Max Quality Video\n🎵 yt-dlp: Download Max Quality Audio" | rofi -dmenu -p "🎬 Multimedia Tools:" -theme spotlight-ffmpeg.rasi)
+CHOICE=$(printf "↩️ Back\n▶️ FFmpeg: Convert to YT/WA (MP4)\n🎮 FFmpeg: Convert for Discord (WebM)\n🎧 FFmpeg: Extract All Audio Tracks\n⬇️ yt-dlp: Download Max Quality Video\n🎵 yt-dlp: Download Max Quality Audio\n🎶 yt-dlp: Download Playlist Audio (M4A)" | rofi -dmenu -p "🎬 Multimedia Tools:" -theme spotlight-ffmpeg.rasi)
 
 case "$CHOICE" in
     "↩️ Back")
@@ -97,7 +97,22 @@ case "$CHOICE" in
             # Torna al menu principale se l'utente annulla o lascia vuoto l'URL
             exec "$MAIN_MENU_SCRIPT"
         else
-            COMMAND="cd \"$MUSIC_DIR\" && yt-dlp -x --audio-format mp3 --audio-quality 0 \"$URL\""
+            COMMAND="cd \"$MUSIC_DIR\" && yt-dlp -x --audio-format m4a --audio-quality 0 \"$URL\""
+            execute_and_return "$COMMAND"
+        fi
+        ;;
+        
+    "🎶 yt-dlp: Download Playlist Audio (M4A)")
+        URL=$(echo "" | rofi -dmenu -p -theme spotlight-rofi-menu-center.rasi "Playlist URL:")
+        if [[ -z "$URL" ]]; then
+            # Torna al menu principale se l'utente annulla o lascia vuoto l'URL
+            exec "$MAIN_MENU_SCRIPT"
+        else
+            # -x: Estrai solo l'audio
+            # --audio-format m4a: Converte l'audio estratto nel formato m4a
+            # --audio-quality 0: Specifica la massima qualità audio (VBR migliore)
+            # --yes-playlist: Per essere espliciti sul download della playlist (anche se yt-dlp lo fa di default se rileva una playlist)
+            COMMAND="cd \"$MUSIC_DIR\" && yt-dlp -x --audio-format m4a --audio-quality 0 --yes-playlist \"$URL\""
             execute_and_return "$COMMAND"
         fi
         ;;

@@ -1,0 +1,90 @@
+background {
+    monitor = DP-1
+    path = /home/mera/Pictures/Wallpapers/DarkWallpapers/longhorn.png 
+}
+
+shape {
+    monitor = DP-1
+    size = 750, 480
+    color = rgba(255, 255, 255, 0.2) 
+    rounding = 15
+    border_size = 2
+    border_color = rgba(255, 255, 255, 0.4)
+    position = 0, 0
+    halign = center
+    valign = center
+    zindex = 99
+    shadow_passes = 3
+    shadow_range = 20
+    shadow_color = rgba(0, 0, 0, 0.4)
+}
+
+shape {
+    monitor = DP-1
+    size = 600, 380
+    color = rgba(255, 255, 255, 0.85)
+    rounding = 12
+    border_size = 0
+    position = 0, 0
+    halign = center
+    valign = center
+    zindex = 100
+}
+
+input-field {
+    monitor = DP-1
+    size = 320, 40
+    position = 50, 7.5
+    halign = center
+    valign = center
+    zindex = 102
+    font_size = 18
+    font_color = rgb(000000)
+    outer_color = rgba(255, 255, 255, 1.0) 
+    inner_color = rgba(255, 255, 255, 1.0)
+    outline_color = rgba(200, 200, 200, 0.8)
+    rounding = 3
+    check_color = rgb(33cc33)
+    fail_color = rgb(cc3333)
+    fade_on_empty = false
+    placeholder_text = <span foreground="##444444">Password</span>
+    shadow_passes = 0
+    shadow_range = 0
+    shadow_color = rgba(0, 0, 0, 0.0)
+}
+
+image {
+    monitor = DP-1
+    path = /home/mera/Pictures/Profile/profile.png
+    size = 100
+    position = -175, 15
+    halign = center
+    valign = center
+    rounding = -1
+    zindex = 102
+    border_size = 2
+    border_color = rgba(255, 255, 255, 0.6) 
+}
+
+image {
+    monitor = DP-1
+    path = /home/mera/Pictures/Profile/glass.png
+    size = 75
+    position = 25, -390
+    halign = center
+    valign = top
+    zindex = 102
+    rounding = 0 
+    border_size = 0
+}
+
+label {
+    monitor = DP-1
+    text = Mera
+    color = rgba(0, 0, 0, 1)
+    position = -75, 50
+    halign = center
+    valign = center
+    font_size = 18
+    zindex = 102
+}

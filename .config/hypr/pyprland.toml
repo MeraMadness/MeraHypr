@@ -1,14 +1,6 @@
 [pyprland]
 plugins = [
  "magnify",
- "scratchpads",
 ]
-
-[scratchpads.term]
-animation = "fromTop"
-command = "kitty --class scratchpad"
-margin = 50
-size = "80% 50%"
-max_size = "3840px 100%"
 
 
